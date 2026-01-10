@@ -257,29 +257,16 @@
   background: var(--color-white);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-lg);
-  overflow: hidden;
-  margin-bottom: var(--spacing-md);
+  padding: var(--spacing-lg);
+  overflow-x: auto;
 }
 
-.booking-calendar {
-  width: 100%;
-  height: 800px;
-  border: none;
-  display: block;
-}
-
-.calendar-note {
-  text-align: center;
-  font-size: 0.9375rem;
-}
-
-.calendar-note a {
+.calendar-wrapper a {
   color: var(--color-primary);
   text-decoration: none;
-  font-weight: 500;
 }
 
-.calendar-note a:hover {
+.calendar-wrapper a:hover {
   text-decoration: underline;
 }
 
@@ -317,10 +304,6 @@
 
   .extras-grid {
     grid-template-columns: 1fr;
-  }
-
-  .booking-calendar {
-    height: 600px;
   }
 
   .partner-logo {

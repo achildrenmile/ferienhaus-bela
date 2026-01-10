@@ -1,7 +1,19 @@
+import { useEffect } from 'react'
 import Hero from '../components/Hero/Hero'
 import './Preise.css'
 
 const Preise = () => {
+  useEffect(() => {
+    // Load ferienhausmiete.de calendar widget
+    const script = document.createElement('script')
+    script.src = 'https://www.ferienhausmiete.de/verwalten/widgets/widgets.js?id=276560&lang=1&months=12&preview=36'
+    script.async = true
+    document.body.appendChild(script)
+
+    return () => {
+      document.body.removeChild(script)
+    }
+  }, [])
   return (
     <div className="preise-page">
       <Hero
@@ -164,25 +176,18 @@ const Preise = () => {
           <h2 className="section-title">Belegungskalender</h2>
           <p className="calendar-intro">
             Hier sehen Sie die aktuelle Verfügbarkeit unseres Ferienhauses.
-            Grün markierte Tage sind verfügbar, rot markierte bereits gebucht.
           </p>
           <div className="calendar-wrapper">
-            <iframe
-              src="https://www.ferienhausmiete.de/276560.htm"
-              title="Ferienhausmiete Belegungskalender"
-              className="booking-calendar"
-              loading="lazy"
-            />
+            <div id="ferienhausmiete-de-widget3-276560">
+              <a
+                href="https://www.ferienhausmiete.de/276560.htm"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ferienhaus Bela - Belegungskalender laden...
+              </a>
+            </div>
           </div>
-          <p className="calendar-note">
-            <a
-              href="https://www.ferienhausmiete.de/276560.htm"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Kalender in neuem Fenster öffnen →
-            </a>
-          </p>
         </div>
       </section>
 
