@@ -46,10 +46,7 @@ const Gallery = ({ images }: GalleryProps) => {
           >
             <img src={image.src} alt={image.alt} loading="lazy" />
             <div className="gallery-item-overlay">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <circle cx="11" cy="11" r="8"/>
-                <path d="m21 21-4.35-4.35M11 8v6M8 11h6"/>
-              </svg>
+              <span className="gallery-item-caption">{image.alt}</span>
             </div>
           </button>
         ))}
@@ -90,7 +87,8 @@ const Gallery = ({ images }: GalleryProps) => {
               alt={images[currentIndex]?.alt}
             />
             <p className="lightbox-caption">
-              {currentIndex + 1} / {images.length}
+              <strong>{images[currentIndex]?.alt}</strong>
+              <span>{currentIndex + 1} / {images.length}</span>
             </p>
           </div>
 
