@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next'
 import Hero from '../components/Hero/Hero'
 import Contact from '../components/Contact/Contact'
 import TranslationDisclaimer from '../components/TranslationDisclaimer/TranslationDisclaimer'
+import SEO from '../components/SEO/SEO'
 import './Home.css'
 
 const Home = () => {
@@ -9,6 +10,11 @@ const Home = () => {
 
   return (
     <div className="home">
+      <SEO
+        title="Ferienhaus Bela - Urlaub mit Hund in Kärnten, Österreich"
+        description="Hundefreundliches Ferienhaus in Kärnten direkt an der Vellach. 84m² Wohnfläche, 1.300m² eingezäunter Garten, bis zu 3 Hunde gratis. Nahe Bad Eisenkappel."
+        canonical="/"
+      />
       <TranslationDisclaimer />
       <Hero
         title={t('home.hero.title')}
@@ -31,7 +37,7 @@ const Home = () => {
             <div className="intro-image">
               <img
                 src="/images/20200524_203311-1.jpg"
-                alt="Ferienhaus Bela Außenansicht"
+                alt="Ferienhaus Bela Außenansicht - hundefreundliches Ferienhaus in Kärnten"
               />
             </div>
           </div>
@@ -101,19 +107,19 @@ const Home = () => {
           <div className="preview-grid">
             <img
               src="/images/20200118_111901-scaled.jpg"
-              alt="Wohnzimmer"
+              alt="Wohnzimmer mit Kachelofen im Ferienhaus Kärnten"
             />
             <img
               src="/images/20200118_132741-scaled.jpg"
-              alt="Küche"
+              alt="Vollausgestattete Küche im Ferienhaus Bela"
             />
             <img
               src="/images/20200612_163615.jpg"
-              alt="Garten"
+              alt="Eingezäunter Garten - ideal für Urlaub mit Hund"
             />
             <img
               src="/images/IMG-20200621-WA0012.jpg"
-              alt="Vellach Fluss"
+              alt="Vellach Fluss direkt am Ferienhaus Grundstück"
             />
           </div>
         </div>

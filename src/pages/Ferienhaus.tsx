@@ -2,17 +2,18 @@ import { useTranslation } from 'react-i18next'
 import Hero from '../components/Hero/Hero'
 import Gallery from '../components/Gallery/Gallery'
 import TranslationDisclaimer from '../components/TranslationDisclaimer/TranslationDisclaimer'
+import SEO from '../components/SEO/SEO'
 import './Ferienhaus.css'
 
 const ferienhaus_images = [
-  { src: '/images/20200118_132741-scaled.jpg', alt: 'Küche' },
-  { src: '/images/20200118_105344-scaled.jpg', alt: 'Badezimmer' },
-  { src: '/images/20200118_111901-scaled.jpg', alt: 'Wohnzimmer' },
-  { src: '/images/20200118_095706-scaled.jpg', alt: 'Schlafzimmer 1' },
-  { src: '/images/20200118_101629-scaled.jpg', alt: 'Schlafzimmer 2' },
-  { src: '/images/20200612_163615.jpg', alt: 'Garten' },
-  { src: '/images/20200611_142130.jpg', alt: 'Knusperhäuschen' },
-  { src: '/images/IMG-20200621-WA0012.jpg', alt: 'Vellach Fluss' },
+  { src: '/images/20200118_132741-scaled.jpg', alt: 'Vollausgestattete Küche im Ferienhaus Bela Kärnten' },
+  { src: '/images/20200118_105344-scaled.jpg', alt: 'Badezimmer mit Waschmaschine im Ferienhaus' },
+  { src: '/images/20200118_111901-scaled.jpg', alt: 'Gemütliches Wohnzimmer mit Kachelofen' },
+  { src: '/images/20200118_095706-scaled.jpg', alt: 'Schlafzimmer mit Doppelbett 180x200cm' },
+  { src: '/images/20200118_101629-scaled.jpg', alt: 'Zweites Schlafzimmer im Ferienhaus Kärnten' },
+  { src: '/images/20200612_163615.jpg', alt: 'Eingezäunter Garten mit 1300m² am Ferienhaus' },
+  { src: '/images/20200611_142130.jpg', alt: 'Knusperhäuschen Spielhaus für Kinder' },
+  { src: '/images/IMG-20200621-WA0012.jpg', alt: 'Vellach Fluss direkt am Ferienhaus Grundstück' },
 ]
 
 const Ferienhaus = () => {
@@ -20,6 +21,12 @@ const Ferienhaus = () => {
 
   return (
     <div className="ferienhaus-page">
+      <SEO
+        title="Ferienhaus Kärnten - 84m² mit Garten | Ferienhaus Bela"
+        description="Ferienhaus in Bad Eisenkappel: 84m² auf 2 Etagen, 2 Schlafzimmer, vollausgestattete Küche, Kachelofen. 1.300m² Garten direkt an der Vellach. Ideal für Familien."
+        canonical="/ferienhaus"
+        ogImage="/images/20200118_111901-scaled.jpg"
+      />
       <TranslationDisclaimer />
       <Hero
         title={t('ferienhaus.hero.title')}

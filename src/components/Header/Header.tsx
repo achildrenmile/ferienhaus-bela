@@ -17,7 +17,7 @@ const Header = () => {
         <Link to="/" className="logo" onClick={closeMenu}>
           <img
             src="/images/logo.png"
-            alt="Ferienhaus Bela Logo"
+            alt="Ferienhaus Bela - Hundefreundliches Ferienhaus Kärnten"
             className="logo-image"
           />
           <span className="logo-text">Ferienhaus Bela</span>

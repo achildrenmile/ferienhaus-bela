@@ -1,8 +1,14 @@
+import SEO from '../components/SEO/SEO'
 import './Legal.css'
 
 const Hausordnung = () => {
   return (
     <div className="legal-page">
+      <SEO
+        title="Hausordnung | Ferienhaus Bela Kärnten"
+        description="Hausordnung für das Ferienhaus Bela: An- und Abreise, Ruhezeiten, Regeln für Haustiere, Rauchverbot und wichtige Hinweise für Ihren Aufenthalt."
+        canonical="/hausordnung"
+      />
       <div className="container">
         <h1>Hausordnung</h1>
 

@@ -1,9 +1,15 @@
 import { Link } from 'react-router-dom'
+import SEO from '../components/SEO/SEO'
 import './Legal.css'
 
 const AGB = () => {
   return (
     <div className="legal-page">
+      <SEO
+        title="AGB - Allgemeine Geschäftsbedingungen | Ferienhaus Bela"
+        description="Allgemeine Geschäftsbedingungen für die Buchung des Ferienhaus Bela in Kärnten. Stornierungsbedingungen, Zahlungsmodalitäten und Mieterpflichten."
+        canonical="/agb"
+      />
       <div className="container">
         <h1>Allgemeine Geschäftsbedingungen</h1>
 

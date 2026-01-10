@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next'
 import Hero from '../components/Hero/Hero'
 import Gallery from '../components/Gallery/Gallery'
 import TranslationDisclaimer from '../components/TranslationDisclaimer/TranslationDisclaimer'
+import SEO from '../components/SEO/SEO'
 import './Umgebung.css'
 
 const umgebung_images = [
@@ -168,6 +169,12 @@ const Umgebung = () => {
 
   return (
     <div className="umgebung-page">
+      <SEO
+        title="Umgebung Bad Eisenkappel - Aktivitäten Kärnten | Ferienhaus Bela"
+        description="Ausflugsziele und Aktivitäten rund um Bad Eisenkappel: Wandern am Hochobir, Obir Tropfsteinhöhle, Klopeiner See, Grenzübergang Slowenien. Ideal für Naturliebhaber."
+        canonical="/umgebung"
+        ogImage="/images/b_DJI_0142-1920.jpg"
+      />
       <TranslationDisclaimer />
       <Hero
         title={t('umgebung.hero.title')}

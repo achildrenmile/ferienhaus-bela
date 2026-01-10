@@ -2,24 +2,25 @@ import { useTranslation } from 'react-i18next'
 import Hero from '../components/Hero/Hero'
 import Gallery from '../components/Gallery/Gallery'
 import TranslationDisclaimer from '../components/TranslationDisclaimer/TranslationDisclaimer'
+import SEO from '../components/SEO/SEO'
 import './Hundeurlaub.css'
 
 const dog_images = [
-  { src: '/images/20200729_0907180-01.jpeg', alt: '' },
-  { src: '/images/20200714_172322-01.jpeg', alt: '' },
-  { src: '/images/20200714_172806-01.jpeg', alt: '' },
-  { src: '/images/hunde-neu-1.jpeg', alt: '' },
-  { src: '/images/20200606_173431-1.jpg', alt: '' },
-  { src: '/images/20200607_134551-1.jpg', alt: '' },
-  { src: '/images/20200612_155329.jpg', alt: '' },
-  { src: '/images/hunde-neu-2.jpeg', alt: '' },
-  { src: '/images/20200607_134617-1.jpg', alt: '' },
-  { src: '/images/20200607_134538-1.jpg', alt: '' },
-  { src: '/images/20200717_092706-01.jpeg', alt: '' },
-  { src: '/images/hunde-neu-3.jpeg', alt: '' },
-  { src: '/images/20200717_091806-01.jpeg', alt: '' },
-  { src: '/images/20200607_095217-1.jpg', alt: '' },
-  { src: '/images/20200517_142635-2.jpg', alt: '' },
+  { src: '/images/20200729_0907180-01.jpeg', alt: 'Hund im Garten des hundefreundlichen Ferienhauses Kärnten' },
+  { src: '/images/20200714_172322-01.jpeg', alt: 'Hund entspannt im eingezäunten Garten' },
+  { src: '/images/20200714_172806-01.jpeg', alt: 'Vierbeiner genießt Urlaub mit Hund in Österreich' },
+  { src: '/images/hunde-neu-1.jpeg', alt: 'Hundefreundliches Ferienhaus Bela - Hund im Garten' },
+  { src: '/images/20200606_173431-1.jpg', alt: 'Hund am Fluss Vellach beim Ferienhaus' },
+  { src: '/images/20200607_134551-1.jpg', alt: 'Hundeurlaub Kärnten - Hund im Grünen' },
+  { src: '/images/20200612_155329.jpg', alt: 'Hund beim Spielen im Ferienhaus-Garten' },
+  { src: '/images/hunde-neu-2.jpeg', alt: 'Urlaub mit Hund Kärnten - entspannter Vierbeiner' },
+  { src: '/images/20200607_134617-1.jpg', alt: 'Hund erkundet Natur rund ums Ferienhaus' },
+  { src: '/images/20200607_134538-1.jpg', alt: 'Glücklicher Hund im hundefreundlichen Urlaub' },
+  { src: '/images/20200717_092706-01.jpeg', alt: 'Hund am Wasserfall bei Bad Eisenkappel' },
+  { src: '/images/hunde-neu-3.jpeg', alt: 'Ferienhaus mit Hund - Vierbeiner im Garten' },
+  { src: '/images/20200717_091806-01.jpeg', alt: 'Wandern mit Hund in Kärnten' },
+  { src: '/images/20200607_095217-1.jpg', alt: 'Hund genießt Naturerlebnis in Südkärnten' },
+  { src: '/images/20200517_142635-2.jpg', alt: 'Hundeurlaub Österreich - Vierbeiner beim Erkunden' },
 ]
 
 const Hundeurlaub = () => {
@@ -29,6 +30,12 @@ const Hundeurlaub = () => {
 
   return (
     <div className="hundeurlaub-page">
+      <SEO
+        title="Hundeurlaub Kärnten - Urlaub mit Hund | Ferienhaus Bela"
+        description="Hundefreundliches Ferienhaus in Kärnten: Bis zu 3 Hunde gratis, eingezäunter Garten, direkter Flusszugang. Hundrum-Sorglospaket inklusive. Ideal für Hundeurlaub!"
+        canonical="/hundeurlaub"
+        ogImage="/images/hunde-neu-1.jpeg"
+      />
       <TranslationDisclaimer />
       <Hero
         title={t('hundeurlaub.hero.title')}

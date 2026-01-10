@@ -1,8 +1,14 @@
+import SEO from '../components/SEO/SEO'
 import './Legal.css'
 
 const Impressum = () => {
   return (
     <div className="legal-page">
+      <SEO
+        title="Impressum & Datenschutz | Ferienhaus Bela"
+        description="Impressum und Datenschutzerklärung von Ferienhaus Bela in Bad Eisenkappel, Kärnten. Kontakt, rechtliche Informationen und DSGVO-Hinweise."
+        canonical="/impressum"
+      />
       <div className="container">
         <h1>Impressum & Datenschutz</h1>
 

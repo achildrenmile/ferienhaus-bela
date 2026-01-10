@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import Hero from '../components/Hero/Hero'
 import TranslationDisclaimer from '../components/TranslationDisclaimer/TranslationDisclaimer'
+import SEO from '../components/SEO/SEO'
 import './Preise.css'
 
 const Preise = () => {
@@ -9,6 +10,11 @@ const Preise = () => {
 
   return (
     <div className="preise-page">
+      <SEO
+        title="Preise Ferienhaus Kärnten - ab €136/Nacht | Ferienhaus Bela"
+        description="Ferienhaus Kärnten Preise: Nebensaison €136/Nacht, Hauptsaison €161/Nacht. Hunde gratis! Endreinigung €90. Belegungskalender und Buchungsbedingungen."
+        canonical="/preise"
+      />
       <TranslationDisclaimer />
       <Hero
         title={t('preise.hero.title')}
@@ -166,7 +172,7 @@ const Preise = () => {
             >
               <img
                 src="/images/klopeiner-see-suedkaernten-logo.png"
-                alt="Klopeiner See - Südkärnten"
+                alt="Klopeiner See Südkärnten Tourismusregion - Partner von Ferienhaus Bela"
                 className="partner-logo"
               />
             </a>
