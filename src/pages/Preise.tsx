@@ -58,7 +58,7 @@ const Preise = () => {
           <div className="extras-grid">
             <div className="extra-card">
               <div className="extra-icon">🧹</div>
-              <h4>Endreinigung & Bettwäsche</h4>
+              <h4>Endreinigung, Bettwäsche & Handtücher</h4>
               <span className="extra-price">€90</span>
               <span className="extra-note">einmalig</span>
             </div>
@@ -70,7 +70,7 @@ const Preise = () => {
             </div>
             <div className="extra-card">
               <div className="extra-icon">📋</div>
-              <h4>Ortstaxe</h4>
+              <h4>Orts- und Nächtigungstaxe</h4>
               <span className="extra-price">€2,30</span>
               <span className="extra-note">pro Nacht pro Person</span>
             </div>
@@ -104,7 +104,7 @@ const Preise = () => {
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <polyline points="20 6 9 17 4 12"/>
               </svg>
-              <span>Heizmaterial</span>
+              <span>Holz für Kaminofen</span>
             </div>
             <div className="included-item">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -133,17 +133,17 @@ const Preise = () => {
           <h2 className="section-title">Buchungsbedingungen</h2>
           <div className="conditions-grid">
             <div className="condition-card">
-              <h4>Check-in</h4>
-              <p>Ab 14:00 Uhr</p>
+              <h4>An- und Abreisetag</h4>
+              <p>Samstag</p>
             </div>
             <div className="condition-card">
-              <h4>Check-out</h4>
-              <p>Bis 10:00 Uhr</p>
+              <h4>Check-in / Check-out</h4>
+              <p>Anreise ab 14:00 Uhr, Abreise bis 10:00 Uhr</p>
             </div>
             <div className="condition-card">
               <h4>Mindestaufenthalt</h4>
               <p>
-                In der Hauptsaison vermieten wir grundsätzlich nur wochenweise.
+                In der Hauptsaison vermieten wir wochenweise (Samstag bis Samstag).
                 Kürzere Aufenthalte sind auf Anfrage möglich, wenn das Haus verfügbar ist.
               </p>
             </div>
