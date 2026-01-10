@@ -1,5 +1,34 @@
 import Hero from '../components/Hero/Hero'
+import Gallery from '../components/Gallery/Gallery'
 import './Umgebung.css'
+
+const umgebung_images = [
+  { src: '/images/b_DJI_0142-1920.jpg', alt: 'Luftaufnahme der Region' },
+  { src: '/images/Hochobir1.jpg', alt: 'Hochobir Gipfel' },
+  { src: '/images/Hochobir.jpg', alt: 'Hochobir Panorama' },
+  { src: '/images/Trögerner-Klamm.jpg', alt: 'Trögerner Klamm' },
+  { src: '/images/Trögerner-Klamm2.jpg', alt: 'Trögerner Klamm Wasserlauf' },
+  { src: '/images/DSC08111-2-1920.jpg', alt: 'Obir Tropfsteinhöhle' },
+  { src: '/images/Fledermaus-1920.jpg', alt: 'Höhlenwelt' },
+  { src: '/images/Blick-Rainer-SH.jpg', alt: 'Bergpanorama' },
+  { src: '/images/SDIM0693_stitch-1920.jpg', alt: 'Landschaftspanorama' },
+  { src: '/images/bek-pano-kl.jpg', alt: 'Bad Eisenkappel Panorama' },
+  { src: '/images/Luschaalm.jpg', alt: 'Luschaalm' },
+  { src: '/images/Luschaalm1.jpg', alt: 'Luschaalm Wanderung' },
+  { src: '/images/Koschnigkreuz.jpg', alt: 'Koschnigkreuz' },
+  { src: '/images/Maria-Dorn.jpg', alt: 'Maria Dorn Kirche' },
+  { src: '/images/pfarrkirche-02.jpg', alt: 'Pfarrkirche Bad Eisenkappel' },
+  { src: '/images/freibad-02.jpg', alt: 'Freibad' },
+  { src: '/images/tennis.jpg', alt: 'Tennisplatz' },
+  { src: '/images/Klettern-Kinder2.jpg', alt: 'Klettern für Kinder' },
+  { src: '/images/DSCN9604-1920.jpg', alt: 'Wanderweg' },
+  { src: '/images/koschuta_twk-344.jpg', alt: 'Koschuta Gebirge' },
+  { src: '/images/Stollenbiken-1920.jpg', alt: 'Stollenbiken Petzen' },
+  { src: '/images/radfamilie-01.jpg', alt: 'Radfahren mit Familie' },
+  { src: '/images/Rudnik-Mezica-kajak-2013-2-1920.jpg', alt: 'Kajak Rudnik Mezica' },
+  { src: '/images/Ante-Pante.jpg', alt: 'Ante Pante Brauchtum' },
+  { src: '/images/Kirchtag.jpg', alt: 'Kirchtag Tradition' },
+]
 
 const Umgebung = () => {
   return (
@@ -7,7 +36,7 @@ const Umgebung = () => {
       <Hero
         title="Umgebung & Aktivitäten"
         subtitle="Entdecken Sie die Natur beidseitig der Grenze - Kärnten und Slowenien"
-        backgroundImage="/images/20200612_163615.jpg"
+        backgroundImage="/images/b_DJI_0142-1920.jpg"
       />
 
       <section className="section">
@@ -24,6 +53,13 @@ const Umgebung = () => {
       </section>
 
       <section className="section section-alt">
+        <div className="container">
+          <h2 className="section-title">Bildergalerie</h2>
+          <Gallery images={umgebung_images} />
+        </div>
+      </section>
+
+      <section className="section">
         <div className="container">
           <h2 className="section-title">Aktivitäten & Ausflugsziele</h2>
 
@@ -86,7 +122,7 @@ const Umgebung = () => {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section section-alt">
         <div className="container">
           <h2 className="section-title">Brauchtum & Traditionen</h2>
           <p className="section-intro">
@@ -158,7 +194,7 @@ const Umgebung = () => {
         </div>
       </section>
 
-      <section className="section section-alt">
+      <section className="section">
         <div className="container">
           <h2 className="section-title">Nützliche Links</h2>
           <div className="links-grid">
