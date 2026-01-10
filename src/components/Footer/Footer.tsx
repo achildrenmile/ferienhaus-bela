@@ -63,7 +63,7 @@ const Footer = () => {
           <div className="footer-section">
             <h4 className="footer-subtitle">Kontakt</h4>
             <address className="footer-contact">
-              <p>Ing. Michael Linder, MSc</p>
+              <p>Ferienhaus Bela</p>
               <p>Vellach 77</p>
               <p>9135 Bad Eisenkappel</p>
               <p>Österreich</p>
