@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "house": "Ferienhaus",
+    "dogs": "Hundeurlaub",
+    "area": "Umgebung",
+    "prices": "Preise & Belegung",
+    "contact": "Jetzt anfragen"
+  },
+  "home": {
+    "hero": {
+      "title": "Ferienhaus Bela",
+      "subtitle": "Ihr hundefreundliches Ferienhaus in Kärnten, direkt an der Vellach. Erholung und Natur pur, nur 4 km von Bad Eisenkappel entfernt."
+    },
+    "welcome": {
+      "title": "Willkommen im Ferienhaus Bela",
+      "p1": "Unser Ferienhaus befindet sich etwa 4 km nach dem Kurort Bad Eisenkappel direkt am Fluss Vellach (slowenisch: Bela). Die idyllische Lage ermöglicht Naturgenuss abseits von Hektik und Lärm.",
+      "p2": "Erholungsuchende und Aktivurlauber können bei uns beidseitig der Grenze die Natur genießen. Mit unserer Lage nahe der slowenischen Grenze bieten sich zahlreiche Ausflugsmöglichkeiten in zwei Ländern.",
+      "p3": "Hunde sind bei uns nicht nur erlaubt, sondern HERZLICH WILLKOMMEN und wohnen selbstverständlich kostenfrei!"
+    },
+    "features": {
+      "title": "Was uns besonders macht",
+      "house": {
+        "title": "Gemütliches Ferienhaus",
+        "description": "84 m² Wohnfläche auf zwei Etagen, komplett ausgestattet für bis zu 4 Erwachsene und 2 Kinder."
+      },
+      "dogs": {
+        "title": "Hundefreundlich",
+        "description": "1.300 m² großes Grundstück direkt an der Vellach. Hunde wohnen kostenfrei mit Hundrum-Sorglospaket."
+      },
+      "location": {
+        "title": "Perfekte Lage",
+        "description": "Direkt am Fluss Vellach, nur 4 km von Bad Eisenkappel, nahe der slowenischen Grenze."
+      },
+      "activities": {
+        "title": "Vielfältige Aktivitäten",
+        "description": "Wandern, Radfahren, Schwimmen, Klettern und mehr - für jeden Geschmack ist etwas dabei."
+      }
+    },
+    "impressions": "Impressionen"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Haben Sie Fragen?",
+    "description": "Wir freuen uns auf Ihre Anfrage! Ob Verfügbarkeit, besondere Wünsche oder Fragen zu Ihrem Hundeurlaub - wir helfen Ihnen gerne weiter.",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "address": "Adresse",
+    "cta": "Jetzt anfragen"
+  },
+  "footer": {
+    "description": "Ihr hundefreundliches Ferienhaus in Kärnten, direkt an der Vellach. Erholung und Natur pur, nur 4 km von Bad Eisenkappel entfernt.",
+    "navigation": "Navigation",
+    "legal": "Rechtliches",
+    "imprint": "Impressum & Datenschutz",
+    "terms": "AGB",
+    "houseRules": "Hausordnung",
+    "contact": "Kontakt",
+    "rights": "Alle Rechte vorbehalten.",
+    "websiteBy": "Website by"
+  },
+  "disclaimer": {
+    "text": "Diese Seite wurde automatisch übersetzt."
+  }
+}

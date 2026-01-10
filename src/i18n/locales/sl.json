@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "home": "Domov",
+    "house": "Počitniška Hiša",
+    "dogs": "Dopust s Psi",
+    "area": "Okolica",
+    "prices": "Cene & Razpoložljivost",
+    "contact": "Povprašajte Zdaj"
+  },
+  "home": {
+    "hero": {
+      "title": "Ferienhaus Bela",
+      "subtitle": "Vaša psom prijazna počitniška hiša na Koroškem, neposredno ob reki Beli. Čisti počitek in narava, le 4 km od Bad Eisenkappla."
+    },
+    "welcome": {
+      "title": "Dobrodošli v Ferienhaus Bela",
+      "p1": "Naša počitniška hiša se nahaja približno 4 km za zdraviliškim mestom Bad Eisenkappel, neposredno ob reki Beli (nemško: Vellach). Idilična lokacija omogoča uživanje v naravi stran od vrveža in hrupa.",
+      "p2": "Iskalci počitka in aktivni počitnikarji lahko pri nas uživajo v naravi na obeh straneh meje. Naša lokacija blizu slovenske meje ponuja številne možnosti izletov v dveh državah.",
+      "p3": "Psi niso samo dovoljeni, ampak TOPLO DOBRODOŠLI in bivajo brezplačno!"
+    },
+    "features": {
+      "title": "Kaj Nas Dela Posebne",
+      "house": {
+        "title": "Udobna Počitniška Hiša",
+        "description": "84 m² bivalne površine na dveh nadstropjih, popolnoma opremljena za do 4 odrasle in 2 otroka."
+      },
+      "dogs": {
+        "title": "Prijazno do Psov",
+        "description": "1.300 m² velika posest neposredno ob Beli. Psi bivajo brezplačno z našim paketom za pse."
+      },
+      "location": {
+        "title": "Popolna Lokacija",
+        "description": "Neposredno ob reki Beli, le 4 km od Bad Eisenkappla, blizu slovenske meje."
+      },
+      "activities": {
+        "title": "Raznovrstne Aktivnosti",
+        "description": "Pohodništvo, kolesarjenje, plavanje, plezanje in več - za vsakogar nekaj."
+      }
+    },
+    "impressions": "Vtisi"
+  },
+  "contact": {
+    "title": "Kontaktirajte nas",
+    "subtitle": "Imate vprašanja?",
+    "description": "Veselimo se vašega povpraševanja! Bodisi razpoložljivost, posebne želje ali vprašanja o vašem dopustu s psom - z veseljem vam pomagamo.",
+    "phone": "Telefon",
+    "email": "E-pošta",
+    "address": "Naslov",
+    "cta": "Povprašajte Zdaj"
+  },
+  "footer": {
+    "description": "Vaša psom prijazna počitniška hiša na Koroškem, neposredno ob reki Beli. Čisti počitek in narava, le 4 km od Bad Eisenkappla.",
+    "navigation": "Navigacija",
+    "legal": "Pravno",
+    "imprint": "Impresum & Zasebnost",
+    "terms": "Pogoji",
+    "houseRules": "Hišni Red",
+    "contact": "Kontakt",
+    "rights": "Vse pravice pridržane.",
+    "websiteBy": "Spletna stran"
+  },
+  "disclaimer": {
+    "text": "Ta stran je bila samodejno prevedena."
+  }
+}

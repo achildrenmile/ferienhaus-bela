@@ -1,9 +1,12 @@
 import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher'
 import './Header.css'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const { t } = useTranslation()
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen)
   const closeMenu = () => setIsMenuOpen(false)
@@ -32,27 +35,28 @@ const Header = () => {
 
         <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
           <NavLink to="/" className="nav-link" onClick={closeMenu}>
-            Startseite
+            {t('nav.home')}
           </NavLink>
           <NavLink to="/ferienhaus" className="nav-link" onClick={closeMenu}>
-            Ferienhaus
+            {t('nav.house')}
           </NavLink>
           <NavLink to="/hundeurlaub" className="nav-link" onClick={closeMenu}>
-            Hundeurlaub
+            {t('nav.dogs')}
           </NavLink>
           <NavLink to="/umgebung" className="nav-link" onClick={closeMenu}>
-            Umgebung
+            {t('nav.area')}
           </NavLink>
           <NavLink to="/preise" className="nav-link" onClick={closeMenu}>
-            Preise & Belegung
+            {t('nav.prices')}
           </NavLink>
           <a
             href="mailto:office@ferienhaus-bela.at"
             className="nav-link nav-cta"
             onClick={closeMenu}
           >
-            Jetzt anfragen
+            {t('nav.contact')}
           </a>
+          <LanguageSwitcher />
         </nav>
       </div>
     </header>

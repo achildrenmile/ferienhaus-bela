@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "home": "Home",
+    "house": "Holiday House",
+    "dogs": "Dog Holiday",
+    "area": "Surroundings",
+    "prices": "Prices & Availability",
+    "contact": "Inquire Now"
+  },
+  "home": {
+    "hero": {
+      "title": "Ferienhaus Bela",
+      "subtitle": "Your dog-friendly holiday home in Carinthia, directly on the Vellach river. Pure relaxation and nature, only 4 km from Bad Eisenkappel."
+    },
+    "welcome": {
+      "title": "Welcome to Ferienhaus Bela",
+      "p1": "Our holiday house is located about 4 km after the spa town of Bad Eisenkappel, directly on the Vellach river (Slovenian: Bela). The idyllic location allows you to enjoy nature away from hustle and noise.",
+      "p2": "Those seeking relaxation and active holidaymakers can enjoy nature on both sides of the border. Our location near the Slovenian border offers numerous excursion opportunities in two countries.",
+      "p3": "Dogs are not only allowed but WARMLY WELCOME and stay free of charge!"
+    },
+    "features": {
+      "title": "What Makes Us Special",
+      "house": {
+        "title": "Cozy Holiday House",
+        "description": "84 m² living space on two floors, fully equipped for up to 4 adults and 2 children."
+      },
+      "dogs": {
+        "title": "Dog-Friendly",
+        "description": "1,300 m² property directly on the Vellach. Dogs stay free with our dog care package."
+      },
+      "location": {
+        "title": "Perfect Location",
+        "description": "Directly on the Vellach river, only 4 km from Bad Eisenkappel, near the Slovenian border."
+      },
+      "activities": {
+        "title": "Various Activities",
+        "description": "Hiking, cycling, swimming, climbing and more - something for everyone."
+      }
+    },
+    "impressions": "Impressions"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Do you have questions?",
+    "description": "We look forward to your inquiry! Whether availability, special requests or questions about your dog holiday - we are happy to help.",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "cta": "Inquire Now"
+  },
+  "footer": {
+    "description": "Your dog-friendly holiday home in Carinthia, directly on the Vellach river. Pure relaxation and nature, only 4 km from Bad Eisenkappel.",
+    "navigation": "Navigation",
+    "legal": "Legal",
+    "imprint": "Imprint & Privacy",
+    "terms": "Terms",
+    "houseRules": "House Rules",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "websiteBy": "Website by"
+  },
+  "disclaimer": {
+    "text": "This page has been automatically translated."
+  }
+}

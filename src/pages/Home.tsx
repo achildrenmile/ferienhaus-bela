@@ -1,35 +1,31 @@
+import { useTranslation } from 'react-i18next'
 import Hero from '../components/Hero/Hero'
 import Contact from '../components/Contact/Contact'
+import TranslationDisclaimer from '../components/TranslationDisclaimer/TranslationDisclaimer'
 import './Home.css'
 
 const Home = () => {
+  const { t } = useTranslation()
+
   return (
     <div className="home">
+      <TranslationDisclaimer />
       <Hero
-        title="Ferienhaus Bela"
-        subtitle="Ihr hundefreundliches Ferienhaus in Kärnten, direkt an der Vellach. Erholung und Natur pur, nur 4 km von Bad Eisenkappel entfernt."
+        title={t('home.hero.title')}
+        subtitle={t('home.hero.subtitle')}
         backgroundImage="/images/20200606_103912.jpg"
         showCTA={true}
       />
 
       <section className="section">
         <div className="container">
-          <h2 className="section-title">Willkommen im Ferienhaus Bela</h2>
+          <h2 className="section-title">{t('home.welcome.title')}</h2>
           <div className="intro-grid">
             <div className="intro-content">
+              <p>{t('home.welcome.p1')}</p>
+              <p>{t('home.welcome.p2')}</p>
               <p>
-                Unser Ferienhaus befindet sich etwa 4 km nach dem Kurort Bad Eisenkappel
-                direkt am Fluss Vellach (slowenisch: Bela). Die idyllische Lage ermöglicht
-                Naturgenuss abseits von Hektik und Lärm.
-              </p>
-              <p>
-                Erholungsuchende und Aktivurlauber können bei uns beidseitig der
-                Grenze die Natur genießen. Mit unserer Lage nahe der slowenischen
-                Grenze bieten sich zahlreiche Ausflugsmöglichkeiten in zwei Ländern.
-              </p>
-              <p>
-                <strong>Hunde sind bei uns nicht nur erlaubt, sondern HERZLICH WILLKOMMEN
-                und wohnen selbstverständlich kostenfrei!</strong>
+                <strong>{t('home.welcome.p3')}</strong>
               </p>
             </div>
             <div className="intro-image">
@@ -44,7 +40,7 @@ const Home = () => {
 
       <section className="section features-section">
         <div className="container">
-          <h2 className="section-title">Was uns besonders macht</h2>
+          <h2 className="section-title">{t('home.features.title')}</h2>
           <div className="features-grid">
             <div className="feature-card">
               <div className="feature-icon">
@@ -53,8 +49,8 @@ const Home = () => {
                   <polyline points="9,22 9,12 15,12 15,22"/>
                 </svg>
               </div>
-              <h3>Gemütliches Ferienhaus</h3>
-              <p>84 m² Wohnfläche auf zwei Etagen, komplett ausgestattet für bis zu 4 Erwachsene und 2 Kinder.</p>
+              <h3>{t('home.features.house.title')}</h3>
+              <p>{t('home.features.house.description')}</p>
             </div>
 
             <div className="feature-card">
@@ -64,8 +60,8 @@ const Home = () => {
                   <path d="M8 12h8M12 8v8"/>
                 </svg>
               </div>
-              <h3>Hundefreundlich</h3>
-              <p>1.300 m² großes Grundstück direkt an der Vellach. Hunde wohnen kostenfrei mit Hundrum-Sorglospaket.</p>
+              <h3>{t('home.features.dogs.title')}</h3>
+              <p>{t('home.features.dogs.description')}</p>
             </div>
 
             <div className="feature-card">
@@ -75,8 +71,8 @@ const Home = () => {
                   <circle cx="12" cy="10" r="3"/>
                 </svg>
               </div>
-              <h3>Perfekte Lage</h3>
-              <p>Direkt am Fluss Vellach, nur 4 km von Bad Eisenkappel, nahe der slowenischen Grenze.</p>
+              <h3>{t('home.features.location.title')}</h3>
+              <p>{t('home.features.location.description')}</p>
             </div>
 
             <div className="feature-card">
@@ -92,8 +88,8 @@ const Home = () => {
                   <path d="M8.5 5H10V3.5C10 2.67 9.33 2 8.5 2S7 2.67 7 3.5 7.67 5 8.5 5z"/>
                 </svg>
               </div>
-              <h3>Vielfältige Aktivitäten</h3>
-              <p>Wandern, Radfahren, Schwimmen, Klettern und mehr - für jeden Geschmack ist etwas dabei.</p>
+              <h3>{t('home.features.activities.title')}</h3>
+              <p>{t('home.features.activities.description')}</p>
             </div>
           </div>
         </div>
@@ -101,7 +97,7 @@ const Home = () => {
 
       <section className="section gallery-preview">
         <div className="container">
-          <h2 className="section-title">Impressionen</h2>
+          <h2 className="section-title">{t('home.impressions')}</h2>
           <div className="preview-grid">
             <img
               src="/images/20200118_111901-scaled.jpg"

@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "home": "Home",
+    "house": "Casa Vacanze",
+    "dogs": "Vacanza con Cani",
+    "area": "Dintorni",
+    "prices": "Prezzi & Disponibilità",
+    "contact": "Richiedi Ora"
+  },
+  "home": {
+    "hero": {
+      "title": "Ferienhaus Bela",
+      "subtitle": "La vostra casa vacanze dog-friendly in Carinzia, direttamente sul fiume Vellach. Puro relax e natura, a soli 4 km da Bad Eisenkappel."
+    },
+    "welcome": {
+      "title": "Benvenuti al Ferienhaus Bela",
+      "p1": "La nostra casa vacanze si trova a circa 4 km dalla città termale di Bad Eisenkappel, direttamente sul fiume Vellach (sloveno: Bela). La posizione idilliaca vi permette di godere della natura lontano dalla frenesia e dal rumore.",
+      "p2": "Chi cerca relax e vacanzieri attivi possono godersi la natura su entrambi i lati del confine. La nostra posizione vicino al confine sloveno offre numerose opportunità di escursioni in due paesi.",
+      "p3": "I cani non sono solo ammessi ma CALOROSAMENTE BENVENUTI e soggiornano gratuitamente!"
+    },
+    "features": {
+      "title": "Cosa Ci Rende Speciali",
+      "house": {
+        "title": "Accogliente Casa Vacanze",
+        "description": "84 m² di superficie abitabile su due piani, completamente attrezzata per un massimo di 4 adulti e 2 bambini."
+      },
+      "dogs": {
+        "title": "Dog-Friendly",
+        "description": "Proprietà di 1.300 m² direttamente sul Vellach. I cani soggiornano gratuitamente con il nostro pacchetto cura cani."
+      },
+      "location": {
+        "title": "Posizione Perfetta",
+        "description": "Direttamente sul fiume Vellach, a soli 4 km da Bad Eisenkappel, vicino al confine sloveno."
+      },
+      "activities": {
+        "title": "Attività Varie",
+        "description": "Escursionismo, ciclismo, nuoto, arrampicata e altro - qualcosa per tutti i gusti."
+      }
+    },
+    "impressions": "Impressioni"
+  },
+  "contact": {
+    "title": "Contattateci",
+    "subtitle": "Avete domande?",
+    "description": "Saremo lieti di ricevere la vostra richiesta! Che si tratti di disponibilità, richieste speciali o domande sulla vostra vacanza con il cane - siamo felici di aiutarvi.",
+    "phone": "Telefono",
+    "email": "E-Mail",
+    "address": "Indirizzo",
+    "cta": "Richiedi Ora"
+  },
+  "footer": {
+    "description": "La vostra casa vacanze dog-friendly in Carinzia, direttamente sul fiume Vellach. Puro relax e natura, a soli 4 km da Bad Eisenkappel.",
+    "navigation": "Navigazione",
+    "legal": "Legale",
+    "imprint": "Imprint & Privacy",
+    "terms": "Termini",
+    "houseRules": "Regolamento",
+    "contact": "Contatto",
+    "rights": "Tutti i diritti riservati.",
+    "websiteBy": "Sito web di"
+  },
+  "disclaimer": {
+    "text": "Questa pagina è stata tradotta automaticamente."
+  }
+}

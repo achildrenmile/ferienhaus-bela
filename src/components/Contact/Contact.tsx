@@ -1,10 +1,13 @@
+import { useTranslation } from 'react-i18next'
 import './Contact.css'
 
 const Contact = () => {
+  const { t } = useTranslation()
+
   return (
     <section className="contact-section">
       <div className="container">
-        <h2 className="section-title">Kontaktieren Sie uns</h2>
+        <h2 className="section-title">{t('contact.title')}</h2>
         <div className="contact-grid">
           <div className="contact-info">
             <div className="contact-card">
@@ -14,7 +17,7 @@ const Contact = () => {
                   <circle cx="12" cy="10" r="3"/>
                 </svg>
               </div>
-              <h3>Adresse</h3>
+              <h3>{t('contact.address')}</h3>
               <p>Vellach 77</p>
               <p>9135 Bad Eisenkappel</p>
               <p>Österreich</p>
@@ -26,7 +29,7 @@ const Contact = () => {
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
                 </svg>
               </div>
-              <h3>Telefon</h3>
+              <h3>{t('contact.phone')}</h3>
               <p><a href="tel:+436769658016">+43 676 965 8016</a></p>
             </div>
 
@@ -37,20 +40,19 @@ const Contact = () => {
                   <polyline points="22,6 12,13 2,6"/>
                 </svg>
               </div>
-              <h3>E-Mail</h3>
+              <h3>{t('contact.email')}</h3>
               <p><a href="mailto:office@ferienhaus-bela.at">office@ferienhaus-bela.at</a></p>
             </div>
           </div>
 
           <div className="contact-cta">
             <div className="cta-card">
-              <h3>Haben Sie Fragen?</h3>
+              <h3>{t('contact.subtitle')}</h3>
               <p>
-                Wir freuen uns auf Ihre Anfrage! Ob Verfügbarkeit, besondere Wünsche
-                oder Fragen zu Ihrem Hundeurlaub - wir helfen Ihnen gerne weiter.
+                {t('contact.description')}
               </p>
               <a href="mailto:office@ferienhaus-bela.at" className="btn btn-primary">
-                Jetzt anfragen
+                {t('contact.cta')}
               </a>
             </div>
           </div>

@@ -1,7 +1,10 @@
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import './Footer.css'
 
 const Footer = () => {
+  const { t } = useTranslation()
+
   return (
     <footer className="footer">
       <div className="footer-container">
@@ -9,8 +12,7 @@ const Footer = () => {
           <div className="footer-section">
             <h3 className="footer-title">Ferienhaus Bela</h3>
             <p className="footer-text">
-              Ihr hundefreundliches Ferienhaus in Kärnten, direkt an der Vellach.
-              Erholung und Natur pur, nur 4 km von Bad Eisenkappel entfernt.
+              {t('footer.description')}
             </p>
             <div className="footer-social">
               <a
@@ -41,27 +43,27 @@ const Footer = () => {
           </div>
 
           <div className="footer-section">
-            <h4 className="footer-subtitle">Navigation</h4>
+            <h4 className="footer-subtitle">{t('footer.navigation')}</h4>
             <nav className="footer-nav">
-              <Link to="/">Startseite</Link>
-              <Link to="/ferienhaus">Ferienhaus</Link>
-              <Link to="/hundeurlaub">Hundeurlaub</Link>
-              <Link to="/umgebung">Umgebung</Link>
-              <Link to="/preise">Preise & Belegung</Link>
+              <Link to="/">{t('nav.home')}</Link>
+              <Link to="/ferienhaus">{t('nav.house')}</Link>
+              <Link to="/hundeurlaub">{t('nav.dogs')}</Link>
+              <Link to="/umgebung">{t('nav.area')}</Link>
+              <Link to="/preise">{t('nav.prices')}</Link>
             </nav>
           </div>
 
           <div className="footer-section">
-            <h4 className="footer-subtitle">Rechtliches</h4>
+            <h4 className="footer-subtitle">{t('footer.legal')}</h4>
             <nav className="footer-nav">
-              <Link to="/impressum">Impressum & Datenschutz</Link>
-              <Link to="/agb">AGB</Link>
-              <Link to="/hausordnung">Hausordnung</Link>
+              <Link to="/impressum">{t('footer.imprint')}</Link>
+              <Link to="/agb">{t('footer.terms')}</Link>
+              <Link to="/hausordnung">{t('footer.houseRules')}</Link>
             </nav>
           </div>
 
           <div className="footer-section">
-            <h4 className="footer-subtitle">Kontakt</h4>
+            <h4 className="footer-subtitle">{t('footer.contact')}</h4>
             <address className="footer-contact">
               <p>Ferienhaus Bela</p>
               <p>Vellach 77</p>
@@ -78,9 +80,9 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} Ferienhaus Bela. Alle Rechte vorbehalten.</p>
+          <p>&copy; {new Date().getFullYear()} Ferienhaus Bela. {t('footer.rights')}</p>
           <p className="footer-credit">
-            Website by{' '}
+            {t('footer.websiteBy')}{' '}
             <a href="https://strali.solutions" target="_blank" rel="noopener noreferrer">
               Strali Solutions
             </a>
