@@ -18,8 +18,8 @@ const Hausordnung = () => {
               <div>
                 <h4>An- und Abreise</h4>
                 <p>
-                  An- und Abreise ist samstags. Ankunft ab 14:00 Uhr,
-                  Abreise bis 10:00 Uhr.
+                  An- und Abreisetag ist Samstag. Die Anreise kann ab 14 Uhr erfolgen.
+                  Die Abreise muss bis spätestens 10 Uhr erfolgen.
                 </p>
               </div>
             </div>
@@ -29,7 +29,8 @@ const Hausordnung = () => {
               <div>
                 <h4>Belegung</h4>
                 <p>
-                  Maximal 4 Erwachsene/Teenager und 2 Kinder.
+                  Maximal 4 Erwachsene/Teenager und 2 Kinder in Zustellbetten.
+                  Zwei Schlafzimmer mit Doppelbetten stehen zur Verfügung.
                 </p>
               </div>
             </div>
@@ -39,8 +40,10 @@ const Hausordnung = () => {
               <div>
                 <h4>Küche</h4>
                 <p>
-                  Pfleglicher Umgang mit allen Geräten. Geschirr sauber lagern.
-                  Untersetzer für heiße Gegenstände nutzen.
+                  Pfleglicher Umgang mit allen Geräten. Untersetzer für heiße
+                  Gegenstände verwenden, Schneidebretter sind Pflicht. Bitte
+                  hinterlassen Sie den Innenraum von Backofen und Kühlschrank
+                  in sauberem Zustand.
                 </p>
               </div>
             </div>
@@ -50,7 +53,8 @@ const Hausordnung = () => {
               <div>
                 <h4>Schäden</h4>
                 <p>
-                  Schäden sind sofort zu melden. Mieter haftet für Beschädigungen.
+                  Gäste haften für Schäden zum Wiederbeschaffungswert.
+                  Schäden sind sofort zu melden.
                 </p>
               </div>
             </div>
@@ -58,9 +62,10 @@ const Hausordnung = () => {
             <div className="rule-item">
               <span className="rule-number">5</span>
               <div>
-                <h4>Sorgfalt</h4>
+                <h4>Sorgfalt & Sicherheit</h4>
                 <p>
-                  Haus beim Verlassen verschließen. Fenster schließen.
+                  Türen und Fenster beim Verlassen verschließen.
+                  Haustiere dürfen nicht alleine im Haus gelassen werden.
                   Wasser und Strom sparsam nutzen.
                 </p>
               </div>
@@ -71,8 +76,9 @@ const Hausordnung = () => {
               <div>
                 <h4>Reinigung</h4>
                 <p>
-                  Verschmutzungen sofort beseitigen. Haus besenrein abgeben.
-                  Regelmäßig lüften.
+                  Wir bitten Sie, das Haus bei Abreise besenrein zu hinterlassen.
+                  Regelmäßiges Lüften ist wichtig zur Schimmelvermeidung,
+                  besonders nach dem Duschen.
                 </p>
               </div>
             </div>
@@ -82,8 +88,9 @@ const Hausordnung = () => {
               <div>
                 <h4>Wasser</h4>
                 <p>
-                  Das Wasser stammt aus einer hauseigenen Quelle.
-                  Es liegt kein Trinkwassergutachten vor.
+                  Das Haus nutzt eine hauseigene Quelle. Es liegt kein
+                  zertifiziertes Trinkwassergutachten vor, die lokale
+                  Wasserqualität ist jedoch ausgezeichnet.
                 </p>
               </div>
             </div>
@@ -91,9 +98,10 @@ const Hausordnung = () => {
             <div className="rule-item">
               <span className="rule-number">8</span>
               <div>
-                <h4>Schneeräumung</h4>
+                <h4>Schneeräumung (Winter)</h4>
                 <p>
-                  Mieter räumt Parkplatz und Zugang eigenverantwortlich.
+                  Gäste räumen Parkplatz und Zugang eigenverantwortlich.
+                  Die dafür notwendigen Geräte werden bereitgestellt.
                 </p>
               </div>
             </div>
@@ -104,7 +112,7 @@ const Hausordnung = () => {
                 <h4>Abfall</h4>
                 <p>
                   Müll nach Fraktionen trennen.
-                  Keine Essensreste in Rohre oder Toilette.
+                  Keine Essensreste oder Abfälle in Abflüsse oder Toiletten.
                 </p>
               </div>
             </div>
@@ -113,17 +121,17 @@ const Hausordnung = () => {
               <span className="rule-number">10</span>
               <div>
                 <h4>Ruhezeiten</h4>
-                <p>22:00 bis 6:00 Uhr.</p>
+                <p>22:00 Uhr bis 6:00 Uhr.</p>
               </div>
             </div>
 
             <div className="rule-item highlight">
               <span className="rule-number">11</span>
               <div>
-                <h4>Rauchen & Feuer</h4>
+                <h4>Rauchen</h4>
                 <p>
-                  Rauchen im Haus verboten.
-                  Offenes Feuer im Außenbereich nicht erlaubt.
+                  Im Haus ist das Rauchen absolut verboten.
+                  Bitte nutzen Sie den Aschenbecher auf der Terrasse.
                 </p>
               </div>
             </div>
@@ -133,8 +141,9 @@ const Hausordnung = () => {
               <div>
                 <h4>Kaminofen</h4>
                 <p>
-                  Bitte der Anheizanleitung folgen.
-                  Asche in den Metalleimer vor der Haustür.
+                  Bitte befolgen Sie die Anheizanleitung und das Holz-Stapelverfahren.
+                  Abgekühlte Asche bitte in den bereitgestellten Metalleimer
+                  vor der Haustür entsorgen.
                 </p>
               </div>
             </div>
@@ -144,8 +153,9 @@ const Hausordnung = () => {
               <div>
                 <h4>Haustiere</h4>
                 <p>
-                  Hunde sind herzlich willkommen. Kotbeutel nutzen.
-                  Hunde nicht auf Möbeln.
+                  Hunde sind herzlich willkommen, dürfen aber nicht auf
+                  Betten oder Möbel. Bitte beseitigen Sie die Hinterlassenschaften
+                  Ihres/r Hund(e) im Garten sofort.
                 </p>
               </div>
             </div>
@@ -153,10 +163,10 @@ const Hausordnung = () => {
             <div className="rule-item">
               <span className="rule-number">14</span>
               <div>
-                <h4>Hausrecht</h4>
+                <h4>Parkplatz</h4>
                 <p>
-                  Der Vermieter darf bei notwendigen Reparaturen
-                  das Haus betreten.
+                  Parkmöglichkeit direkt vor dem Haus. Der Vermieter haftet
+                  nicht für Schäden oder Diebstahl, außer bei Fahrlässigkeit.
                 </p>
               </div>
             </div>
