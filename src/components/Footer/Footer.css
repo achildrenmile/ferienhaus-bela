@@ -100,6 +100,21 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-credit {
+  margin-top: var(--spacing-sm);
+  font-size: 0.8125rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-credit a {
+  color: rgba(255, 255, 255, 0.7);
+  transition: color var(--transition-fast);
+}
+
+.footer-credit a:hover {
+  color: var(--color-secondary);
+}
+
 @media (max-width: 900px) {
   .footer-grid {
     grid-template-columns: 1fr 1fr;

@@ -79,6 +79,12 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <p>&copy; {new Date().getFullYear()} Ferienhaus Bela. Alle Rechte vorbehalten.</p>
+          <p className="footer-credit">
+            Website by{' '}
+            <a href="https://strali.solutions" target="_blank" rel="noopener noreferrer">
+              Strali Solutions
+            </a>
+          </p>
         </div>
       </div>
     </footer>
