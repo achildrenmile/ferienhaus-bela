@@ -130,20 +130,31 @@ const Hundeurlaub = () => {
           <div className="dogs-grid">
             <div className="dog-card">
               <h3>Kiki</h3>
-              <p className="dog-age">9 Jahre, Kroatischer Schäfermix</p>
+              <p className="dog-age">Kroatischer Schäfermix</p>
               <p>Frech, loyal, souverän - unsere ruhige Rudelchefin</p>
             </div>
             <div className="dog-card">
-              <h3>Kira</h3>
-              <p className="dog-age">14 Jahre, Border Collie Mix</p>
-              <p>Will to please, Balljunkie, aufmerksam, Schmuserin</p>
-            </div>
-            <div className="dog-card">
               <h3>King</h3>
-              <p className="dog-age">5 Jahre, Aussie</p>
+              <p className="dog-age">Aussie</p>
               <p>Verspielter Kasperl, sehr lernbereit und immer im Mittelpunkt</p>
             </div>
+            <div className="dog-card">
+              <h3>Neo</h3>
+              <p className="dog-age">Der Neue im Rudel</p>
+              <p>Unser frecher Punk - lustig, wild und immer für Unfug zu haben</p>
+            </div>
           </div>
+
+          <div className="memorial-card">
+            <h3>In liebevoller Erinnerung an Kira</h3>
+            <p className="memorial-subtitle">Border Collie Mix - Für immer in unseren Herzen</p>
+            <p>
+              Will to please, Balljunkie, aufmerksam und die größte Schmuserin.
+              Du hast unzählige Gäste mit deinem sanften Wesen verzaubert.
+              Wir vermissen dich jeden Tag.
+            </p>
+          </div>
+
           <div className="social-link-box">
             <p>Folgen Sie unseren Hunden auf Instagram:</p>
             <a
