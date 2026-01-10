@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import ScrollToTop from './components/ScrollToTop'
 import Header from './components/Header/Header'
+import Breadcrumbs from './components/Breadcrumbs/Breadcrumbs'
 import Footer from './components/Footer/Footer'
 import CookieConsent from './components/CookieConsent/CookieConsent'
 import Home from './pages/Home'
@@ -18,6 +19,7 @@ function App() {
     <div className="app">
       <ScrollToTop />
       <Header />
+      <Breadcrumbs />
       <main className="main-content">
         <Routes>
           <Route path="/" element={<Home />} />

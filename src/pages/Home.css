@@ -78,6 +78,20 @@
   line-height: 1.6;
 }
 
+.feature-card-link {
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+.feature-card-link:hover .feature-icon {
+  transform: scale(1.1);
+}
+
+.feature-card-link .feature-icon {
+  transition: transform var(--transition-normal);
+}
+
 /* Gallery Preview */
 .preview-grid {
   display: grid;

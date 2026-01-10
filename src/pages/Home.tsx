@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
 import Hero from '../components/Hero/Hero'
 import Contact from '../components/Contact/Contact'
 import TranslationDisclaimer from '../components/TranslationDisclaimer/TranslationDisclaimer'
@@ -48,7 +49,7 @@ const Home = () => {
         <div className="container">
           <h2 className="section-title">{t('home.features.title')}</h2>
           <div className="features-grid">
-            <div className="feature-card">
+            <Link to="/ferienhaus" className="feature-card feature-card-link">
               <div className="feature-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
@@ -57,9 +58,9 @@ const Home = () => {
               </div>
               <h3>{t('home.features.house.title')}</h3>
               <p>{t('home.features.house.description')}</p>
-            </div>
+            </Link>
 
-            <div className="feature-card">
+            <Link to="/hundeurlaub" className="feature-card feature-card-link">
               <div className="feature-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <circle cx="12" cy="12" r="10"/>
@@ -68,9 +69,9 @@ const Home = () => {
               </div>
               <h3>{t('home.features.dogs.title')}</h3>
               <p>{t('home.features.dogs.description')}</p>
-            </div>
+            </Link>
 
-            <div className="feature-card">
+            <Link to="/umgebung" className="feature-card feature-card-link">
               <div className="feature-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
@@ -79,9 +80,9 @@ const Home = () => {
               </div>
               <h3>{t('home.features.location.title')}</h3>
               <p>{t('home.features.location.description')}</p>
-            </div>
+            </Link>
 
-            <div className="feature-card">
+            <Link to="/preise" className="feature-card feature-card-link">
               <div className="feature-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M14.5 10c-.83 0-1.5-.67-1.5-1.5v-5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5z"/>
@@ -96,7 +97,7 @@ const Home = () => {
               </div>
               <h3>{t('home.features.activities.title')}</h3>
               <p>{t('home.features.activities.description')}</p>
-            </div>
+            </Link>
           </div>
         </div>
       </section>
