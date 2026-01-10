@@ -254,20 +254,24 @@
 }
 
 .calendar-wrapper {
-  display: flex;
-  justify-content: center;
+  max-width: 350px;
+  margin: 0 auto;
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
 }
 
 .calendar-iframe {
-  width: 400px;
-  height: 500px;
+  width: 100%;
+  height: 420px;
   border: none;
+  display: block;
 }
 
 @media (max-width: 480px) {
-  .calendar-iframe {
-    width: 100%;
-    height: 480px;
+  .calendar-wrapper {
+    max-width: 100%;
   }
 }
 
