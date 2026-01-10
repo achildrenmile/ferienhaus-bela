@@ -159,7 +159,34 @@ const Preise = () => {
         </div>
       </section>
 
-      <section className="section cta-section">
+      <section className="section">
+        <div className="container">
+          <h2 className="section-title">Belegungskalender</h2>
+          <p className="calendar-intro">
+            Hier sehen Sie die aktuelle Verfügbarkeit unseres Ferienhauses.
+            Grün markierte Tage sind verfügbar, rot markierte bereits gebucht.
+          </p>
+          <div className="calendar-wrapper">
+            <iframe
+              src="https://www.ferienhausmiete.de/276560.htm"
+              title="Ferienhausmiete Belegungskalender"
+              className="booking-calendar"
+              loading="lazy"
+            />
+          </div>
+          <p className="calendar-note">
+            <a
+              href="https://www.ferienhausmiete.de/276560.htm"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Kalender in neuem Fenster öffnen →
+            </a>
+          </p>
+        </div>
+      </section>
+
+      <section className="section section-alt">
         <div className="container">
           <div className="cta-box">
             <h2>Interesse geweckt?</h2>
@@ -167,8 +194,22 @@ const Preise = () => {
               Kontaktieren Sie uns für Verfügbarkeit und Buchungsanfragen.
               Wir freuen uns auf Sie und Ihre Vierbeiner!
             </p>
-            <a href="mailto:office@ferienhaus-bela.at" className="btn btn-accent">
+            <a href="mailto:office@ferienhaus-bela.at?subject=Ferienhaus%20Bela%20-%20Buchungsanfrage" className="btn btn-accent">
               Jetzt anfragen
+            </a>
+          </div>
+          <div className="region-partner">
+            <a
+              href="https://www.klopeinersee.at"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="partner-logo-link"
+            >
+              <img
+                src="/images/klopeiner-see-suedkaernten-logo.png"
+                alt="Klopeiner See - Südkärnten"
+                className="partner-logo"
+              />
             </a>
           </div>
         </div>
