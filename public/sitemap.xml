@@ -2,8 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-
-  <!-- Homepage -->
   <url>
     <loc>https://ferienhaus-bela.at/</loc>
     <lastmod>2026-01-10</lastmod>
@@ -16,12 +14,10 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ferienhaus-bela.at/"/>
     <image:image>
       <image:loc>https://ferienhaus-bela.at/images/20200606_103912.jpg</image:loc>
-      <image:title>Ferienhaus Bela - Außenansicht</image:title>
-      <image:caption>Hundefreundliches Ferienhaus in Kärnten mit Blick auf die Berge</image:caption>
+      <image:title>Ferienhaus Bela Aussenansicht</image:title>
+      <image:caption>Hundefreundliches Ferienhaus in Kaernten mit Blick auf die Berge</image:caption>
     </image:image>
   </url>
-
-  <!-- Ferienhaus Page -->
   <url>
     <loc>https://ferienhaus-bela.at/ferienhaus</loc>
     <lastmod>2026-01-10</lastmod>
@@ -34,16 +30,9 @@
     <image:image>
       <image:loc>https://ferienhaus-bela.at/images/20200118_111901-scaled.jpg</image:loc>
       <image:title>Wohnzimmer mit Kachelofen</image:title>
-      <image:caption>Gemütliches Wohnzimmer im Ferienhaus Bela</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://ferienhaus-bela.at/images/20200118_132741-scaled.jpg</image:loc>
-      <image:title>Küche</image:title>
-      <image:caption>Vollausgestattete Küche im Ferienhaus</image:caption>
+      <image:caption>Gemuetliches Wohnzimmer im Ferienhaus Bela</image:caption>
     </image:image>
   </url>
-
-  <!-- Hundeurlaub Page -->
   <url>
     <loc>https://ferienhaus-bela.at/hundeurlaub</loc>
     <lastmod>2026-01-10</lastmod>
@@ -56,11 +45,9 @@
     <image:image>
       <image:loc>https://ferienhaus-bela.at/images/hunde-neu-1.jpeg</image:loc>
       <image:title>Hunde im Ferienhaus Bela</image:title>
-      <image:caption>Hundefreundlicher Urlaub in Kärnten</image:caption>
+      <image:caption>Hundefreundlicher Urlaub in Kaernten</image:caption>
     </image:image>
   </url>
-
-  <!-- Umgebung Page -->
   <url>
     <loc>https://ferienhaus-bela.at/umgebung</loc>
     <lastmod>2026-01-10</lastmod>
@@ -73,11 +60,9 @@
     <image:image>
       <image:loc>https://ferienhaus-bela.at/images/b_DJI_0142-1920.jpg</image:loc>
       <image:title>Luftaufnahme Bad Eisenkappel</image:title>
-      <image:caption>Umgebung und Aktivitäten rund um das Ferienhaus</image:caption>
+      <image:caption>Umgebung und Aktivitaeten rund um das Ferienhaus</image:caption>
     </image:image>
   </url>
-
-  <!-- Preise Page -->
   <url>
     <loc>https://ferienhaus-bela.at/preise</loc>
     <lastmod>2026-01-10</lastmod>
@@ -88,27 +73,22 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://ferienhaus-bela.at/preise"/>
     <xhtml:link rel="alternate" hreflang="sl" href="https://ferienhaus-bela.at/preise"/>
   </url>
-
-  <!-- Legal Pages -->
   <url>
     <loc>https://ferienhaus-bela.at/impressum</loc>
     <lastmod>2026-01-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
-
   <url>
     <loc>https://ferienhaus-bela.at/agb</loc>
     <lastmod>2026-01-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
-
   <url>
     <loc>https://ferienhaus-bela.at/hausordnung</loc>
     <lastmod>2026-01-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
-
 </urlset>
