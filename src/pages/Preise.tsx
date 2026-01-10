@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import Hero from '../components/Hero/Hero'
+import TranslationDisclaimer from '../components/TranslationDisclaimer/TranslationDisclaimer'
 import './Preise.css'
 
 const Preise = () => {
@@ -8,6 +9,7 @@ const Preise = () => {
 
   return (
     <div className="preise-page">
+      <TranslationDisclaimer />
       <Hero
         title={t('preise.hero.title')}
         subtitle={t('preise.hero.subtitle')}

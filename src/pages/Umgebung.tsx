@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import Hero from '../components/Hero/Hero'
 import Gallery from '../components/Gallery/Gallery'
+import TranslationDisclaimer from '../components/TranslationDisclaimer/TranslationDisclaimer'
 import './Umgebung.css'
 
 const umgebung_images = [
@@ -167,6 +168,7 @@ const Umgebung = () => {
 
   return (
     <div className="umgebung-page">
+      <TranslationDisclaimer />
       <Hero
         title={t('umgebung.hero.title')}
         subtitle={t('umgebung.hero.subtitle')}

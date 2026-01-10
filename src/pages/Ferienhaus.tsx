@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import Hero from '../components/Hero/Hero'
 import Gallery from '../components/Gallery/Gallery'
+import TranslationDisclaimer from '../components/TranslationDisclaimer/TranslationDisclaimer'
 import './Ferienhaus.css'
 
 const ferienhaus_images = [
@@ -19,6 +20,7 @@ const Ferienhaus = () => {
 
   return (
     <div className="ferienhaus-page">
+      <TranslationDisclaimer />
       <Hero
         title={t('ferienhaus.hero.title')}
         subtitle={t('ferienhaus.hero.subtitle')}

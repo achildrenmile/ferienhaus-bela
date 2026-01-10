@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import Hero from '../components/Hero/Hero'
 import Gallery from '../components/Gallery/Gallery'
+import TranslationDisclaimer from '../components/TranslationDisclaimer/TranslationDisclaimer'
 import './Hundeurlaub.css'
 
 const dog_images = [
@@ -28,6 +29,7 @@ const Hundeurlaub = () => {
 
   return (
     <div className="hundeurlaub-page">
+      <TranslationDisclaimer />
       <Hero
         title={t('hundeurlaub.hero.title')}
         subtitle={t('hundeurlaub.hero.subtitle')}
