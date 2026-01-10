@@ -39,6 +39,318 @@
     },
     "impressions": "Impressions"
   },
+  "ferienhaus": {
+    "hero": {
+      "title": "The Holiday House",
+      "subtitle": "84 m² living space on two floors - cozy and fully equipped"
+    },
+    "location": {
+      "title": "Location & Description",
+      "text": "The holiday house is located about 4 km after the spa town of Bad Eisenkappel, directly on the Vellach river (Slovenian: Bela). The idyllic location allows you to enjoy nature away from hustle and noise. Dogs are warmly welcome."
+    },
+    "size": {
+      "title": "Size & Capacity",
+      "area": "Living Space",
+      "persons": "Persons (4 adults + 2 children)",
+      "garden": "Garden",
+      "bedrooms": "Bedrooms"
+    },
+    "rooms": {
+      "title": "Room Layout",
+      "ground": "Ground Floor",
+      "upper": "Upper Floor",
+      "groundItems": ["Entrance hall", "Living room with tiled stove", "Kitchen-dining room", "Bathroom", "Separate toilet"],
+      "upperItems": ["Hallway", "Bedroom 1 (double bed 180×200 cm)", "Bedroom 2 (double bed 180×200 cm)", "Extra bed/travel cot on request"]
+    },
+    "equipment": {
+      "title": "Equipment",
+      "kitchen": "Kitchen",
+      "kitchenItems": ["Electric stove with oven", "Refrigerator with freezer compartment", "Separate freezer", "Automatic coffee machine", "Kettle & toaster", "Dishes and cutlery for 6+ people"],
+      "living": "Living Area",
+      "livingItems": ["Cozy tiled stove", "TV (Video on Demand)", "Playstation", "Books and games"],
+      "bathroom": "Bathroom",
+      "bathroomItems": ["Washing machine", "Tumble dryer", "Hair dryer"],
+      "gardenTitle": "Garden",
+      "gardenItems": ["Outdoor furniture", "Grill", "Trampoline", "Slide & sandbox", "Children's toys (seasonal)"],
+      "other": "Other",
+      "otherItems": ["Free Wi-Fi", "Parking in front of the house"],
+      "dogPackage": "Dog Care Package",
+      "dogPackageItems": ["Dog treats", "Water/food bowls", "Dog bed", "Dog blankets", "Toys", "Garden dog shower", "Poop bags", "Towels"]
+    },
+    "gallery": "Photo Gallery"
+  },
+  "hundeurlaub": {
+    "hero": {
+      "title": "Dog Holiday",
+      "subtitle": "Dogs are not only allowed but WARMLY WELCOME and stay free of charge!"
+    },
+    "intro": {
+      "title": "Holiday with Dog in Carinthia",
+      "text": "We are dog owners ourselves with three dogs and have designed our offer specifically for dog-friendly holidays. Here you and your furry friends can relax and enjoy nature."
+    },
+    "package": {
+      "title": "Dog Care Package",
+      "subtitle": "Free for all four-legged friends included",
+      "items": ["Dog treats", "Water and food bowls", "Dog basket", "Dog blankets", "Dog toys", "Dog shower in the garden", "Poop bags", "Dog towels"]
+    },
+    "outdoor": {
+      "title": "Property & Outdoor",
+      "property": {
+        "title": "1,300 m² Property",
+        "text": "Plenty of space for your four-legged friends to romp, play and explore."
+      },
+      "river": {
+        "title": "Directly on the Vellach",
+        "text": "The river offers perfect cooling in summer for water-loving dogs."
+      },
+      "fenced": {
+        "title": "Fenced Garden",
+        "text": "Safe environment to relax and chill outdoors."
+      }
+    },
+    "rules": {
+      "title": "Rules & Capacity",
+      "count": {
+        "title": "Number of Dogs",
+        "text": "Maximum 3 dogs. More dogs possible on request."
+      },
+      "inside": {
+        "title": "Inside the House",
+        "text": "Dogs are not allowed on beds or the couch. Dog blankets and baskets are provided for the furry friends."
+      },
+      "cost": {
+        "title": "Cost",
+        "text": "Dogs stay with us free of charge!"
+      }
+    },
+    "ourDogs": {
+      "title": "Our Dogs",
+      "subtitle": "The hosts on four paws",
+      "kiki": {
+        "name": "Kiki",
+        "breed": "Croatian Shepherd Mix",
+        "description": "Cheeky, loyal, confident - our calm pack leader"
+      },
+      "king": {
+        "name": "King",
+        "breed": "Aussie",
+        "description": "Playful clown, very eager to learn and always in the spotlight"
+      },
+      "neo": {
+        "name": "Neo",
+        "breed": "The New One in the Pack",
+        "description": "Our cheeky punk - funny, wild and always up for mischief"
+      },
+      "memorial": {
+        "title": "In Loving Memory of Kira",
+        "subtitle": "Border Collie Mix - Forever in Our Hearts",
+        "text": "Will to please, ball junkie, attentive and the biggest cuddler. You enchanted countless guests with your gentle nature. We miss you every day."
+      }
+    },
+    "gallery": "Photo Gallery"
+  },
+  "umgebung": {
+    "hero": {
+      "title": "Surroundings / Activities / Traditions",
+      "subtitle": "Discover nature on both sides of the border - Carinthia and Slovenia"
+    },
+    "intro": {
+      "title": "Location & Surroundings",
+      "text": "The holiday house is located in Vellach, belongs to the market town of Bad Eisenkappel in Carinthia and is close to the Slovenian border. Those seeking relaxation and active holidaymakers can enjoy nature on both sides of the border. Extensive leisure opportunities, excursion destinations and a landscape with vibrant folklore and regional traditions await you.",
+      "highlights": {
+        "title": "Eisenkappel-Vellach Highlights",
+        "items": ["Two border crossings to Slovenia (Seebergsattel and Paulitschsattel)", "Bad Eisenkappel is Austria's only place with the double designation spa town and health resort", "Southernmost municipality in Austria"]
+      }
+    },
+    "gallery": {
+      "title": "Photo Gallery",
+      "intro": "Discover the diverse landscape and culture of the region in our gallery. Click on an image for a larger view."
+    },
+    "activities": {
+      "title": "Activities & Excursions",
+      "intro": "Whether hiking, cycling, swimming or cultural discoveries - the region offers something for every taste.",
+      "hiking": {
+        "title": "Hiking & Mountaineering",
+        "description": "The mountain world around Bad Eisenkappel invites you to unforgettable hikes. From leisurely walks to challenging summit tours, everything is possible.",
+        "items": [
+          { "name": "Hochobir (2,139m)", "desc": "Popular viewpoint mountain with panoramic views" },
+          { "name": "Petzen", "desc": "Mountain railway, hiking trails and bike park" },
+          { "name": "Carinthian Storschitz", "desc": "Cross-border hikes" },
+          { "name": "Koschuta", "desc": "Via ferratas and alpine tours" },
+          { "name": "Luschaalm", "desc": "Alpine pasture hike with refreshment stop" },
+          { "name": "Kneipp Trail", "desc": "Health trail in Bad Eisenkappel" }
+        ]
+      },
+      "nature": {
+        "title": "Natural Attractions",
+        "description": "Impressive natural wonders are waiting to be discovered.",
+        "items": [
+          { "name": "Obir Stalactite Cave", "desc": "Fascinating cave world with guided tours", "highlight": true },
+          { "name": "Wildensteiner Waterfall", "desc": "Spectacular 54m high waterfall" },
+          { "name": "Trögerner Gorge", "desc": "Wild romantic gorge" },
+          { "name": "Kupitzklamm", "desc": "Natural gorge with hiking trail" },
+          { "name": "Hemmaberg", "desc": "Archaeological excavations and pilgrimage church" },
+          { "name": "Christophorus Rock", "desc": "Distinctive rock formation" }
+        ]
+      },
+      "water": {
+        "title": "Water Sports & Leisure",
+        "description": "Refreshing cooling and water fun in the area.",
+        "items": [
+          { "name": "Bad Eisenkappel Pool", "desc": "Family-friendly swimming pool" },
+          { "name": "Sonnegger Lake", "desc": "Natural bathing place and outdoor pool" },
+          { "name": "Klopeiner Lake", "desc": "Warmest bathing lake in Europe" },
+          { "name": "Turnersee", "desc": "Bird park and bathing spots" },
+          { "name": "Kayak Rudnik Mezica", "desc": "Kayaking in a former mine" },
+          { "name": "Forest Adventure World Klopeiner Lake", "desc": "Adventure for the whole family" }
+        ]
+      },
+      "biking": {
+        "title": "Cycling & Biking",
+        "description": "From leisurely bike tours to action-packed downhill trails.",
+        "items": [
+          { "name": "Mine Biking Petzen", "desc": "Unique mountain biking in a mine", "highlight": true },
+          { "name": "Bikepark Petzen", "desc": "Downhill trails for all levels" },
+          { "name": "Family Bike Paths", "desc": "Leisurely tours through the region" },
+          { "name": "Mountain Bike Tours", "desc": "Challenging trails in the mountains" }
+        ]
+      },
+      "culture": {
+        "title": "Cultural Attractions",
+        "description": "Experience the history and culture of the region.",
+        "items": [
+          { "name": "Parish Church Bad Eisenkappel", "desc": "Historic church in the town center" },
+          { "name": "St. Leonhard Church", "desc": "Romanesque church on the hillside" },
+          { "name": "Maria Dorn", "desc": "Pilgrimage church" },
+          { "name": "Koschnigkreuz", "desc": "Traditional wayside cross" },
+          { "name": "Panunziuskreuz Schaida", "desc": "Historic memorial" },
+          { "name": "Hemmaberg Excavations", "desc": "Early Christian church complex" }
+        ]
+      },
+      "jezersko": {
+        "title": "Our Insider Tip: Jezersko (Slovenia)",
+        "description": "The mountain village of Jezersko is surrounded by the Steiner Alps and the Karawanken range. It is particularly known for the heart-shaped reservoir, which is reminiscent of the former glacier lake that gave the place its name. A beautiful excursion destination just across the border!",
+        "items": [
+          { "name": "Heart-shaped Lake", "desc": "Romantic natural spectacle", "highlight": true },
+          { "name": "Steiner Alps", "desc": "Impressive mountain scenery" }
+        ]
+      }
+    },
+    "traditions": {
+      "title": "Customs & Traditions",
+      "quote": "Tradition makes one day different from another, one hour different from other hours.",
+      "quoteAuthor": "- after Antoine de Saint-Exupéry",
+      "intro": "The region maintains a vibrant folklore with traditional festivals and customs throughout the year. These traditions are deeply rooted in the community and are passed down from generation to generation.",
+      "items": [
+        { "date": "February 1", "title": "Ante Pante / Church Carrying", "text": "Traditional church carrying in Bad Eisenkappel with the saying \"Ante pante populore, kocle vrate cvile lore\" - a unique custom of the region." },
+        { "date": "March 19", "title": "Josefimarkt", "text": "Traditional market in Nötsch with regional products and crafts." },
+        { "date": "Holy Week", "title": "Palm Branch Carrying", "text": "Traditional custom during Holy Week with artfully bound palm branches." },
+        { "date": "Summer", "title": "Church Fairs", "text": "Traditional festivals like barrel jousting in Gailtal with music, dancing and regional specialties." },
+        { "date": "June 21", "title": "Midsummer Fire", "text": "Celebrations for the summer solstice with mountain fires throughout the region." },
+        { "date": "1st Saturday October", "title": "Polenta Festival", "text": "Traditional festival in Nötsch centered around the popular corn dish." },
+        { "date": "December 4", "title": "St. Barbara's Day", "text": "Traditional holiday of miners with special customs." },
+        { "date": "December", "title": "Krampus & Perchten", "text": "Spectacular parades by the Bad Eisenkappel Perchten group - a winter highlight." },
+        { "date": "Advent", "title": "Advent Markets & Rorate", "text": "Contemplative Advent season with traditional markets and early morning Rorate masses." },
+        { "date": "December 26", "title": "Horse Blessing", "text": "Traditional blessing of horses on St. Stephen's Day." },
+        { "date": "December 28", "title": "\"Fresh and Healthy\"", "text": "Traditional custom on Innocents' Day with birch rod strikes for health." },
+        { "date": "New Year", "title": "Star Singing", "text": "Traditional star singing in the New Year - the Three Wise Men go from house to house." }
+      ]
+    },
+    "links": {
+      "title": "Useful Links",
+      "intro": "Further information and planning aids for your stay.",
+      "items": [
+        { "title": "Info Material Bad Eisenkappel", "desc": "Brochures and information for download" },
+        { "title": "Overview Map", "desc": "Interactive map of the region" },
+        { "title": "Jezersko (Slovenia)", "desc": "Our insider tip with heart-shaped lake" },
+        { "title": "Perchten Group Bad Eisenkappel", "desc": "Traditional Perchten group of the region" }
+      ]
+    },
+    "closing": {
+      "quote": "Everyone sees a part of reality; together we see the whole picture.",
+      "text": "We continuously expand our gallery with photos from guests. Share your most beautiful impressions with us!"
+    }
+  },
+  "preise": {
+    "hero": {
+      "title": "Prices & Availability",
+      "subtitle": "Transparent prices for your dream holiday in Carinthia"
+    },
+    "season": {
+      "title": "Seasonal Prices",
+      "low": {
+        "title": "Low Season",
+        "period": "October - May",
+        "note": "(except Easter, Christmas, New Year)"
+      },
+      "high": {
+        "title": "High Season",
+        "period": "June - September",
+        "badge": "Popular"
+      },
+      "holiday": {
+        "title": "Holidays",
+        "period": "Easter, Christmas, New Year"
+      },
+      "perNight": "per night"
+    },
+    "extras": {
+      "title": "Additional Costs",
+      "cleaning": {
+        "title": "Final cleaning, bed linen & towels",
+        "note": "one-time"
+      },
+      "deposit": {
+        "title": "Deposit",
+        "note": "Returned on departure"
+      },
+      "tax": {
+        "title": "Local and accommodation tax",
+        "note": "per night per person"
+      },
+      "dogs": {
+        "title": "Dogs",
+        "price": "Free!",
+        "note": "up to 3 dogs free of charge"
+      }
+    },
+    "included": {
+      "title": "Included in the Price",
+      "items": ["Up to 4 adults/teenagers + 2 children", "Electricity and water", "Wood for fireplace", "Wi-Fi", "Travel cot/extra bed (on request)", "Dog care package"]
+    },
+    "conditions": {
+      "title": "Booking Conditions",
+      "arrivalDay": {
+        "title": "Arrival and departure day",
+        "text": "Saturday"
+      },
+      "checkInOut": {
+        "title": "Check-in / Check-out",
+        "text": "Arrival from 2:00 PM, departure by 10:00 AM"
+      },
+      "minStay": {
+        "title": "Minimum stay",
+        "text": "In high season we rent weekly (Saturday to Saturday). Shorter stays are possible on request if the house is available."
+      },
+      "deposit": {
+        "title": "Deposit",
+        "text": "20% of total price upon booking confirmation"
+      },
+      "balance": {
+        "title": "Balance payment",
+        "text": "14 days before arrival"
+      }
+    },
+    "calendar": {
+      "title": "Availability Calendar",
+      "intro": "Here you can see the current availability of our holiday house."
+    },
+    "cta": {
+      "title": "Interested?",
+      "text": "Contact us for availability and booking inquiries. We look forward to welcoming you and your four-legged friends!",
+      "button": "Inquire Now"
+    }
+  },
   "contact": {
     "title": "Contact Us",
     "subtitle": "Do you have questions?",

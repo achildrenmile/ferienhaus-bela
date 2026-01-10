@@ -39,6 +39,318 @@
     },
     "impressions": "Vtisi"
   },
+  "ferienhaus": {
+    "hero": {
+      "title": "Počitniška Hiša",
+      "subtitle": "84 m² bivalne površine na dveh nadstropjih - udobna in popolnoma opremljena"
+    },
+    "location": {
+      "title": "Lokacija & Opis",
+      "text": "Počitniška hiša se nahaja približno 4 km za zdraviliškim mestom Bad Eisenkappel, neposredno ob reki Beli (nemško: Vellach). Idilična lokacija omogoča uživanje v naravi stran od vrveža in hrupa. Psi so toplo dobrodošli."
+    },
+    "size": {
+      "title": "Velikost & Kapaciteta",
+      "area": "Bivalna Površina",
+      "persons": "Osebe (4 odrasli + 2 otroka)",
+      "garden": "Vrt",
+      "bedrooms": "Spalnice"
+    },
+    "rooms": {
+      "title": "Razporeditev Prostorov",
+      "ground": "Pritličje",
+      "upper": "Nadstropje",
+      "groundItems": ["Predprostor", "Dnevna soba s keramično pečjo", "Jedilna kuhinja", "Kopalnica", "Ločen WC"],
+      "upperItems": ["Hodnik", "Spalnica 1 (zakonska postelja 180×200 cm)", "Spalnica 2 (zakonska postelja 180×200 cm)", "Dodatna postelja/potovalna posteljica na zahtevo"]
+    },
+    "equipment": {
+      "title": "Oprema",
+      "kitchen": "Kuhinja",
+      "kitchenItems": ["Električni štedilnik s pečico", "Hladilnik z zamrzovalnikom", "Ločen zamrzovalnik", "Avtomatski kavni aparat", "Kuhalnik in toaster", "Posoda in pribor za 6+ oseb"],
+      "living": "Bivalni Prostor",
+      "livingItems": ["Udobna keramična peč", "TV (Video on Demand)", "Playstation", "Knjige in igre"],
+      "bathroom": "Kopalnica",
+      "bathroomItems": ["Pralni stroj", "Sušilni stroj", "Sušilnik za lase"],
+      "gardenTitle": "Vrt",
+      "gardenItems": ["Vrtno pohištvo", "Žar", "Trampolin", "Tobogan in peskovnik", "Otroške igrače (sezonsko)"],
+      "other": "Drugo",
+      "otherItems": ["Brezplačen Wi-Fi", "Parkirišče pred hišo"],
+      "dogPackage": "Paket za Pse",
+      "dogPackageItems": ["Pasji piškoti", "Posode za vodo/hrano", "Pasja postelja", "Pasje odeje", "Igrače", "Vrtna pasja prha", "Vrečke za iztrebke", "Brisače"]
+    },
+    "gallery": "Galerija Slik"
+  },
+  "hundeurlaub": {
+    "hero": {
+      "title": "Dopust s Psi",
+      "subtitle": "Psi niso samo dovoljeni, ampak TOPLO DOBRODOŠLI in bivajo brezplačno!"
+    },
+    "intro": {
+      "title": "Dopust s Psom na Koroškem",
+      "text": "Sami smo lastniki treh psov in smo našo ponudbo oblikovali posebej za dopust prijaznim do psov. Tu se lahko vi in vaši kosmatinci sproščeno uživate v naravi."
+    },
+    "package": {
+      "title": "Paket za Pse",
+      "subtitle": "Brezplačno za vse štirinožce",
+      "items": ["Pasji piškoti", "Posode za vodo in hrano", "Pasja košara", "Pasje odeje", "Pasje igrače", "Pasja prha v vrtu", "Vrečke za iztrebke", "Pasje brisače"]
+    },
+    "outdoor": {
+      "title": "Posest & Zunanjost",
+      "property": {
+        "title": "1.300 m² Posest",
+        "text": "Veliko prostora za vaše štirinožce za igro, tek in raziskovanje."
+      },
+      "river": {
+        "title": "Neposredno ob Beli",
+        "text": "Reka poleti ponuja popolno osvežitev za pse, ki obožujejo vodo."
+      },
+      "fenced": {
+        "title": "Ograjen Vrt",
+        "text": "Varno okolje za sprostitev na prostem."
+      }
+    },
+    "rules": {
+      "title": "Pravila & Kapaciteta",
+      "count": {
+        "title": "Število Psov",
+        "text": "Največ 3 psi. Več psov možno na zahtevo."
+      },
+      "inside": {
+        "title": "V Hiši",
+        "text": "Psi ne smejo na postelje ali kavč. Pasje odeje in košare so na voljo za kosmatince."
+      },
+      "cost": {
+        "title": "Cena",
+        "text": "Psi pri nas bivajo brezplačno!"
+      }
+    },
+    "ourDogs": {
+      "title": "Naši Psi",
+      "subtitle": "Gostitelji na štirih tacah",
+      "kiki": {
+        "name": "Kiki",
+        "breed": "Hrvaški ovčar mešanec",
+        "description": "Predrzna, zvesta, samozavestna - naša mirna voditeljica tropa"
+      },
+      "king": {
+        "name": "King",
+        "breed": "Aussie",
+        "description": "Razigran šaljivec, zelo učljiv in vedno v središču pozornosti"
+      },
+      "neo": {
+        "name": "Neo",
+        "breed": "Novinec v Tropu",
+        "description": "Naš predrzni punker - zabaven, divji in vedno pripravljen na nagajivosti"
+      },
+      "memorial": {
+        "title": "V Ljubečem Spominu na Kiro",
+        "subtitle": "Border Collie Mešanec - Za Vedno v Naših Srcih",
+        "text": "Želja ugoditi, žogica odvisnica, pozorna in največja ljubkovanka. S svojo nežno naravo si očarala neštete goste. Pogrešamo te vsak dan."
+      }
+    },
+    "gallery": "Galerija Slik"
+  },
+  "umgebung": {
+    "hero": {
+      "title": "Okolica / Aktivnosti / Tradicije",
+      "subtitle": "Odkrijte naravo na obeh straneh meje - Koroška in Slovenija"
+    },
+    "intro": {
+      "title": "Lokacija & Okolica",
+      "text": "Počitniška hiša se nahaja v Beli, pripada občini Bad Eisenkappel na Koroškem in je blizu slovenske meje. Iskalci počitka in aktivni počitnikarji lahko uživajo v naravi na obeh straneh meje. Čakajo vas obsežne možnosti za prosti čas, izletniške destinacije in pokrajina z živahno folklorno kulturo in regionalnimi tradicijami.",
+      "highlights": {
+        "title": "Posebnosti Železne Kaple",
+        "items": ["Dva mejna prehoda v Slovenijo (Jezerski vrh in Pavličev sedlo)", "Bad Eisenkappel je edini kraj v Avstriji z dvojnim poimenovanjem zdravilišče in klimatsko zdravilišče", "Najjužnejša občina v Avstriji"]
+      }
+    },
+    "gallery": {
+      "title": "Galerija Slik",
+      "intro": "Odkrijte raznovrstno pokrajino in kulturo regije v naši galeriji. Kliknite na sliko za večji pogled."
+    },
+    "activities": {
+      "title": "Aktivnosti & Izleti",
+      "intro": "Bodisi pohodništvo, kolesarjenje, plavanje ali kulturna odkritja - regija ponuja nekaj za vsak okus.",
+      "hiking": {
+        "title": "Pohodništvo & Alpinizem",
+        "description": "Gorski svet okoli Bad Eisenkappla vabi k nepozabnim pohodom. Od sproščenih sprehodov do zahtevnih vzponov na vrhove je vse mogoče.",
+        "items": [
+          { "name": "Hochobir (2.139m)", "desc": "Priljubljena razgledna gora s panoramskim razgledom" },
+          { "name": "Peca", "desc": "Gondola, pohodne poti in bike park" },
+          { "name": "Koroški Stol", "desc": "Čezmejni pohodi" },
+          { "name": "Košuta", "desc": "Zavarovane plezalne poti in alpske ture" },
+          { "name": "Luška planina", "desc": "Pohod na planino z možnostjo okrepčila" },
+          { "name": "Kneippova pot", "desc": "Zdravilna pot v Bad Eisenkapplu" }
+        ]
+      },
+      "nature": {
+        "title": "Naravne Znamenitosti",
+        "description": "Impresivna naravna čudesa čakajo, da jih odkrijete.",
+        "items": [
+          { "name": "Obirska kapniška jama", "desc": "Fascinanten jamski svet z vodenmi ogledi", "highlight": true },
+          { "name": "Slap Wildensteiner", "desc": "Veličasten 54m visok slap" },
+          { "name": "Trögerner soteska", "desc": "Divje romantična soteska" },
+          { "name": "Kupitzklamm", "desc": "Naravna soteska s pohodniško potjo" },
+          { "name": "Hemmaberg", "desc": "Arheološka izkopavanja in romarska cerkev" },
+          { "name": "Krištofova skala", "desc": "Značilna skalna formacija" }
+        ]
+      },
+      "water": {
+        "title": "Vodni Športi & Prosti Čas",
+        "description": "Osvežilno hlajenje in vodna zabava v okolici.",
+        "items": [
+          { "name": "Kopališče Bad Eisenkappel", "desc": "Družinam prijazno kopališče" },
+          { "name": "Sonnegger jezero", "desc": "Naravno kopališče in bazen" },
+          { "name": "Klopinjsko jezero", "desc": "Najtoplejše kopalno jezero v Evropi" },
+          { "name": "Turnersee", "desc": "Park ptic in kopalna mesta" },
+          { "name": "Kajak Rudnik Mežica", "desc": "Kajakaštvo v nekdanjem rudniku" },
+          { "name": "Gozdni pustolovščinski svet Klopinjsko jezero", "desc": "Pustolovščina za vso družino" }
+        ]
+      },
+      "biking": {
+        "title": "Kolesarjenje & Gorsko Kolesarjenje",
+        "description": "Od sproščenih kolesarskih izletov do akcijskih downhill prog.",
+        "items": [
+          { "name": "Jamsko kolesarjenje Peca", "desc": "Edinstveno gorsko kolesarjenje v rudniku", "highlight": true },
+          { "name": "Bike park Peca", "desc": "Downhill proge za vse nivoje" },
+          { "name": "Družinske Kolesarske Poti", "desc": "Sproščeni izleti po regiji" },
+          { "name": "Gorsko Kolesarske Ture", "desc": "Zahtevne proge v gorah" }
+        ]
+      },
+      "culture": {
+        "title": "Kulturne Znamenitosti",
+        "description": "Doživite zgodovino in kulturo regije.",
+        "items": [
+          { "name": "Župnijska cerkev Bad Eisenkappel", "desc": "Zgodovinska cerkev v centru mesta" },
+          { "name": "Cerkev sv. Lenarta", "desc": "Romanska cerkev na pobočju" },
+          { "name": "Maria Dorn", "desc": "Romarska cerkev" },
+          { "name": "Koschnigov križ", "desc": "Tradicionalni križ ob poti" },
+          { "name": "Panunzijev križ Schaida", "desc": "Zgodovinski spomenik" },
+          { "name": "Izkopanine Hemmaberg", "desc": "Zgodnjekrščanski cerkveni kompleks" }
+        ]
+      },
+      "jezersko": {
+        "title": "Naš Nasvet: Jezersko (Slovenija)",
+        "description": "Gorska vas Jezersko je obdana s Kamniškimi Alpami in Karavankami. Posebej znano je po srčastem jezeru, ki spominja na nekdanje ledeniško jezero, po katerem je kraj dobil ime. Čudovit izletniški cilj tik čez mejo!",
+        "items": [
+          { "name": "Srčasto Jezero", "desc": "Romantičen naravni spektakel", "highlight": true },
+          { "name": "Kamniške Alpe", "desc": "Impresivna gorska kulisa" }
+        ]
+      }
+    },
+    "traditions": {
+      "title": "Običaji & Tradicije",
+      "quote": "Tradicija naredi en dan drugačen od drugega, eno uro drugačno od drugih ur.",
+      "quoteAuthor": "- po Antoine de Saint-Exupéry",
+      "intro": "Regija ohranja živahno folkloro s tradicionalnimi praznovanji in običaji skozi vse leto. Te tradicije so globoko zakoreninjene v skupnosti in se prenašajo iz generacije v generacijo.",
+      "items": [
+        { "date": "1. februar", "title": "Ante Pante / Nošenje cerkvic", "text": "Tradicionalno nošenje cerkvic v Bad Eisenkapplu z izrekom \"Ante pante populore, kocle vrate cvile lore\" - edinstven običaj regije." },
+        { "date": "19. marec", "title": "Jožefov sejem", "text": "Tradicionalni sejem v Nötschu z regionalnimi izdelki in rokodelstvom." },
+        { "date": "Veliki teden", "title": "Nošenje butaric", "text": "Tradicionalni običaj v velikem tednu z umetno zavezanimi butaricami." },
+        { "date": "Poletje", "title": "Župnijski shodi", "text": "Tradicionalne prireditve kot so štehvanje v Ziljski dolini z glasbo, plesom in regionalnimi specialitetami." },
+        { "date": "21. junij", "title": "Kresovi", "text": "Praznovanje poletnega solsticija z gorskimi ognji po vsej regiji." },
+        { "date": "1. sobota oktober", "title": "Praznk polente", "text": "Tradicionalna prireditev v Nötschu okoli priljubljenega koruznega jedila." },
+        { "date": "4. december", "title": "Barbarin dan", "text": "Tradicionalni praznik rudarjev s posebnimi običaji." },
+        { "date": "December", "title": "Parkli & Perhtni", "text": "Spektakularni sprevodi skupine Perchten iz Bad Eisenkappla - vrhunec zime." },
+        { "date": "Advent", "title": "Adventni sejmi & Rorate", "text": "Premišljevalni adventni čas s tradicionalnimi sejmi in zgodnjejutranišmi roratnimi mašami." },
+        { "date": "26. december", "title": "Blagoslov konjev", "text": "Tradicionalni blagoslov konjev na Štefanovo." },
+        { "date": "28. december", "title": "\"Sveži in zdravi\"", "text": "Tradicionalni običaj na dan nedolžnih otrok s šibami za zdravje." },
+        { "date": "Novo leto", "title": "Koledovanje", "text": "Tradicionalno koledovanje v novem letu - sveti trije kralji hodijo od hiše do hiše." }
+      ]
+    },
+    "links": {
+      "title": "Uporabne Povezave",
+      "intro": "Nadaljnje informacije in pomoč pri načrtovanju vašega bivanja.",
+      "items": [
+        { "title": "Informativno gradivo Bad Eisenkappel", "desc": "Brošure in informacije za prenos" },
+        { "title": "Pregledna karta", "desc": "Interaktivna karta regije" },
+        { "title": "Jezersko (Slovenija)", "desc": "Naš nasvet s srčastim jezerom" },
+        { "title": "Skupina Perchten Bad Eisenkappel", "desc": "Tradicionalna skupina Perchten regije" }
+      ]
+    },
+    "closing": {
+      "quote": "Vsak vidi del resničnosti; skupaj vidimo celotno sliko.",
+      "text": "Nenehno širimo našo galerijo s fotografijami gostov. Delite z nami svoje najlepše vtise!"
+    }
+  },
+  "preise": {
+    "hero": {
+      "title": "Cene & Razpoložljivost",
+      "subtitle": "Pregledne cene za vaš sanjski dopust na Koroškem"
+    },
+    "season": {
+      "title": "Sezonske Cene",
+      "low": {
+        "title": "Nizka Sezona",
+        "period": "Oktober - Maj",
+        "note": "(razen velika noč, božič, silvestrovo)"
+      },
+      "high": {
+        "title": "Visoka Sezona",
+        "period": "Junij - September",
+        "badge": "Priljubljeno"
+      },
+      "holiday": {
+        "title": "Prazniki",
+        "period": "Velika noč, Božič, Silvestrovo"
+      },
+      "perNight": "na noč"
+    },
+    "extras": {
+      "title": "Dodatni Stroški",
+      "cleaning": {
+        "title": "Končno čiščenje, posteljnina in brisače",
+        "note": "enkratno"
+      },
+      "deposit": {
+        "title": "Kavcija",
+        "note": "Vračilo ob odhodu"
+      },
+      "tax": {
+        "title": "Krajevna in nočitvena taksa",
+        "note": "na noč na osebo"
+      },
+      "dogs": {
+        "title": "Psi",
+        "price": "Brezplačno!",
+        "note": "do 3 psi brezplačno"
+      }
+    },
+    "included": {
+      "title": "Vključeno v Ceno",
+      "items": ["Do 4 odrasli/najstniki + 2 otroka", "Elektrika in voda", "Les za kamin", "Wi-Fi", "Potovalna posteljica/dodatna postelja (na zahtevo)", "Paket za pse"]
+    },
+    "conditions": {
+      "title": "Pogoji Rezervacije",
+      "arrivalDay": {
+        "title": "Dan prihoda in odhoda",
+        "text": "Sobota"
+      },
+      "checkInOut": {
+        "title": "Prijava / Odjava",
+        "text": "Prihod od 14:00, odhod do 10:00"
+      },
+      "minStay": {
+        "title": "Minimalno bivanje",
+        "text": "V visoki sezoni oddajamo tedensko (od sobote do sobote). Krajša bivanja so možna na zahtevo, če je hiša na voljo."
+      },
+      "deposit": {
+        "title": "Akontacija",
+        "text": "20% skupne cene ob potrditvi rezervacije"
+      },
+      "balance": {
+        "title": "Doplačilo",
+        "text": "14 dni pred prihodom"
+      }
+    },
+    "calendar": {
+      "title": "Koledar Razpoložljivosti",
+      "intro": "Tu lahko vidite trenutno razpoložljivost naše počitniške hiše."
+    },
+    "cta": {
+      "title": "Zainteresirani?",
+      "text": "Kontaktirajte nas za razpoložljivost in povpraševanja o rezervacijah. Veselimo se vašega prihoda in prihoda vaših štirinožcev!",
+      "button": "Povprašajte Zdaj"
+    }
+  },
   "contact": {
     "title": "Kontaktirajte nas",
     "subtitle": "Imate vprašanja?",

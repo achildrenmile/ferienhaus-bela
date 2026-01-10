@@ -39,6 +39,318 @@
     },
     "impressions": "Impressionen"
   },
+  "ferienhaus": {
+    "hero": {
+      "title": "Das Ferienhaus",
+      "subtitle": "84 m² Wohnfläche auf zwei Etagen - gemütlich und komplett ausgestattet"
+    },
+    "location": {
+      "title": "Standort & Beschreibung",
+      "text": "Das Ferienhaus befindet sich etwa 4 km nach dem Kurort Bad Eisenkappel direkt am Fluss Vellach (slowenisch: Bela). Die idyllische Lage ermöglicht Naturgenuss abseits von Hektik und Lärm. Hunde sind herzlich willkommen."
+    },
+    "size": {
+      "title": "Größe & Kapazität",
+      "area": "Wohnfläche",
+      "persons": "Personen (4 Erwachsene + 2 Kinder)",
+      "garden": "Garten",
+      "bedrooms": "Schlafzimmer"
+    },
+    "rooms": {
+      "title": "Raumaufteilung",
+      "ground": "Erdgeschoss",
+      "upper": "Obergeschoss",
+      "groundItems": ["Vorraum", "Wohnzimmer mit Kachelofen", "Essküche", "Badezimmer", "Separates WC"],
+      "upperItems": ["Vorraum", "Schlafzimmer 1 (Doppelbett 180×200 cm)", "Schlafzimmer 2 (Doppelbett 180×200 cm)", "Zustellbett/Reisegitterbett auf Anfrage"]
+    },
+    "equipment": {
+      "title": "Ausstattung",
+      "kitchen": "Küche",
+      "kitchenItems": ["Elektroherd mit Backofen", "Kühlschrank mit Gefrierfach", "Separater Gefrierschrank", "Kaffeevollautomat", "Wasserkocher & Toaster", "Geschirr und Besteck für 6+ Personen"],
+      "living": "Wohnbereich",
+      "livingItems": ["Gemütlicher Kachelofen", "Fernseher (Video on Demand)", "Playstation", "Bücher und Spiele"],
+      "bathroom": "Badezimmer",
+      "bathroomItems": ["Waschmaschine", "Wäschetrockner", "Haartrockner"],
+      "gardenTitle": "Garten",
+      "gardenItems": ["Sitzmöbel", "Grill", "Trampolin", "Rutsche & Sandkiste", "Kinderspielzeug (saisonal)"],
+      "other": "Sonstiges",
+      "otherItems": ["W-LAN kostenfrei", "Parkplatz vor dem Haus"],
+      "dogPackage": "Hundrum-Sorglospaket",
+      "dogPackageItems": ["Hundekekse", "Wasser-/Futterschüsseln", "Hundebett", "Hundedecken", "Spielzeug", "Garten-Hundedusche", "Kotbeutel", "Handtücher"]
+    },
+    "gallery": "Bildergalerie"
+  },
+  "hundeurlaub": {
+    "hero": {
+      "title": "Hundeurlaub",
+      "subtitle": "Hunde sind bei uns nicht nur erlaubt, sondern HERZLICH WILLKOMMEN und wohnen selbstverständlich kostenfrei!"
+    },
+    "intro": {
+      "title": "Urlaub mit Hund in Kärnten",
+      "text": "Wir sind selbst Hundebesitzer mit drei Hunden und haben unser Angebot speziell für hundefreundliche Ferien konzipiert. Bei uns können Sie und Ihre Fellnasen entspannt die Natur genießen."
+    },
+    "package": {
+      "title": "Hundrum-Sorglospaket",
+      "subtitle": "Kostenlos für alle Vierbeiner inklusive",
+      "items": ["Hundekekse", "Wasser- und Futterschüsseln", "Hundekörbchen", "Hundedecken", "Hundespielzeug", "Hundedusche im Garten", "Kotbeutel", "Hundehandtücher"]
+    },
+    "outdoor": {
+      "title": "Grundstück & Outdoor",
+      "property": {
+        "title": "1.300 m² Grundstück",
+        "text": "Viel Platz zum Toben, Spielen und Erkunden für Ihre Vierbeiner."
+      },
+      "river": {
+        "title": "Direkt an der Vellach",
+        "text": "Der Fluss bietet im Sommer die perfekte Abkühlung für wasserliebende Hunde."
+      },
+      "fenced": {
+        "title": "Eingezäunter Garten",
+        "text": "Sichere Umgebung zum Entspannen und Chillen im Freien."
+      }
+    },
+    "rules": {
+      "title": "Regeln & Kapazität",
+      "count": {
+        "title": "Anzahl der Hunde",
+        "text": "Maximum 3 Hunde. Mehr Hunde auf Anfrage möglich."
+      },
+      "inside": {
+        "title": "Im Haus",
+        "text": "Hunde dürfen nicht in Betten oder auf die Couch. Hundedecken und Hundekörbchen stehen für die Fellnasen bereit."
+      },
+      "cost": {
+        "title": "Kosten",
+        "text": "Hunde wohnen bei uns selbstverständlich kostenfrei!"
+      }
+    },
+    "ourDogs": {
+      "title": "Unsere Hunde",
+      "subtitle": "Die Gastgeber auf vier Pfoten",
+      "kiki": {
+        "name": "Kiki",
+        "breed": "Kroatischer Schäfermix",
+        "description": "Frech, loyal, souverän - unsere ruhige Rudelchefin"
+      },
+      "king": {
+        "name": "King",
+        "breed": "Aussie",
+        "description": "Verspielter Kasperl, sehr lernbereit und immer im Mittelpunkt"
+      },
+      "neo": {
+        "name": "Neo",
+        "breed": "Der Neue im Rudel",
+        "description": "Unser frecher Punk - lustig, wild und immer für Unfug zu haben"
+      },
+      "memorial": {
+        "title": "In liebevoller Erinnerung an Kira",
+        "subtitle": "Border Collie Mix - Für immer in unseren Herzen",
+        "text": "Will to please, Balljunkie, aufmerksam und die größte Schmuserin. Du hast unzählige Gäste mit deinem sanften Wesen verzaubert. Wir vermissen dich jeden Tag."
+      }
+    },
+    "gallery": "Bildergalerie"
+  },
+  "umgebung": {
+    "hero": {
+      "title": "Umgebung / Aktivitäten / Brauchtum",
+      "subtitle": "Entdecken Sie die Natur beidseitig der Grenze - Kärnten und Slowenien"
+    },
+    "intro": {
+      "title": "Standort & Umgebung",
+      "text": "Das Ferienhaus befindet sich in Vellach, gehört zur Marktgemeinde Bad Eisenkappel in Kärnten und liegt nahe der slowenischen Grenze. Erholungssuchende und Aktivurlauber können die Natur beidseitig der Grenze genießen. Es erwarten Sie umfangreiche Freizeitmöglichkeiten, Ausflugsziele und eine Landschaft mit lebendiger Brauchtumskultur und regionalen Traditionen.",
+      "highlights": {
+        "title": "Eisenkappel-Vellach Besonderheiten",
+        "items": ["Zwei Grenzübergänge nach Slowenien (Seebergsattel und Paulitschsattel)", "Bad Eisenkappel ist Österreichs einziger Ort mit der Doppelbezeichnung Kurort und Luftkurort", "Südlichste Gemeinde Österreichs"]
+      }
+    },
+    "gallery": {
+      "title": "Bildergalerie",
+      "intro": "Entdecken Sie die vielfältige Landschaft und Kultur der Region in unserer Galerie. Klicken Sie auf ein Bild für eine größere Ansicht."
+    },
+    "activities": {
+      "title": "Aktivitäten & Ausflugsziele",
+      "intro": "Ob Wandern, Radfahren, Schwimmen oder kulturelle Entdeckungen - die Region bietet für jeden Geschmack das Richtige.",
+      "hiking": {
+        "title": "Wandern & Bergsteigen",
+        "description": "Die Bergwelt rund um Bad Eisenkappel lädt zu unvergesslichen Wanderungen ein. Vom gemütlichen Spaziergang bis zur anspruchsvollen Gipfeltour ist alles möglich.",
+        "items": [
+          { "name": "Hochobir (2.139m)", "desc": "Beliebter Aussichtsberg mit Panoramablick" },
+          { "name": "Petzen", "desc": "Bergbahn, Wanderwege und Bikepark" },
+          { "name": "Kärntner Storschitz", "desc": "Grenzüberschreitende Wanderungen" },
+          { "name": "Koschuta", "desc": "Klettersteige und alpine Touren" },
+          { "name": "Luschaalm", "desc": "Almwanderung mit Einkehrmöglichkeit" },
+          { "name": "Kneipp-Wanderweg", "desc": "Gesundheitsweg in Bad Eisenkappel" }
+        ]
+      },
+      "nature": {
+        "title": "Natursehenswürdigkeiten",
+        "description": "Beeindruckende Naturwunder warten darauf, entdeckt zu werden.",
+        "items": [
+          { "name": "Obir Tropfsteinhöhle", "desc": "Faszinierende Höhlenwelt mit Führungen", "highlight": true },
+          { "name": "Wildensteiner Wasserfall", "desc": "Spektakulärer 54m hoher Wasserfall" },
+          { "name": "Trögerner Klamm", "desc": "Wildromantische Schlucht" },
+          { "name": "Kupitzklamm", "desc": "Natürliche Klamm mit Wanderweg" },
+          { "name": "Hemmaberg", "desc": "Archäologische Ausgrabungen und Wallfahrtskirche" },
+          { "name": "Christophorusfelsen", "desc": "Markante Felsformation" }
+        ]
+      },
+      "water": {
+        "title": "Wassersport & Freizeit",
+        "description": "Erfrischende Abkühlung und Wasserspaß in der Umgebung.",
+        "items": [
+          { "name": "Freibad Bad Eisenkappel", "desc": "Familienfreundliches Schwimmbad" },
+          { "name": "Sonnegger See", "desc": "Naturbadeplatz und Freibad" },
+          { "name": "Klopeiner See", "desc": "Wärmster Badesee Europas" },
+          { "name": "Turnersee", "desc": "Vogelpark und Badeplätze" },
+          { "name": "Kajak Rudnik Mezica", "desc": "Kajakfahren im ehemaligen Bergwerk" },
+          { "name": "Walderlebniswelt Klopeiner See", "desc": "Abenteuer für die ganze Familie" }
+        ]
+      },
+      "biking": {
+        "title": "Radfahren & Biken",
+        "description": "Von gemütlichen Radtouren bis zu actionreichen Downhill-Strecken.",
+        "items": [
+          { "name": "Stollenbiken Petzen", "desc": "Einzigartiges Mountainbiken im Bergwerk", "highlight": true },
+          { "name": "Bikepark Petzen", "desc": "Downhill-Strecken für alle Levels" },
+          { "name": "Familienradwege", "desc": "Gemütliche Touren durch die Region" },
+          { "name": "Mountainbike-Touren", "desc": "Anspruchsvolle Strecken in den Bergen" }
+        ]
+      },
+      "culture": {
+        "title": "Kulturelle Sehenswürdigkeiten",
+        "description": "Geschichte und Kultur der Region erleben.",
+        "items": [
+          { "name": "Pfarrkirche Bad Eisenkappel", "desc": "Historische Kirche im Ortszentrum" },
+          { "name": "Kirche St. Leonhard", "desc": "Romanische Kirche auf dem Berghang" },
+          { "name": "Maria Dorn", "desc": "Wallfahrtskirche" },
+          { "name": "Koschnigkreuz", "desc": "Traditionelles Wegkreuz" },
+          { "name": "Panunziuskreuz Schaida", "desc": "Historische Gedenkstätte" },
+          { "name": "Hemmaberg Ausgrabungen", "desc": "Frühchristliche Kirchenanlage" }
+        ]
+      },
+      "jezersko": {
+        "title": "Unser Geheimtipp: Jezersko (Slowenien)",
+        "description": "Das Bergdorf Jezersko liegt umgeben von den Steiner Alpen und der Karawankenkette. Besonders bekannt ist der herzförmige Stausee, der an den ehemaligen Gletschersee erinnert, dem der Ort seinen Namen verdankt. Ein wunderschönes Ausflugsziel direkt hinter der Grenze!",
+        "items": [
+          { "name": "Herzförmiger See", "desc": "Romantisches Naturschauspiel", "highlight": true },
+          { "name": "Steiner Alpen", "desc": "Beeindruckende Bergkulisse" }
+        ]
+      }
+    },
+    "traditions": {
+      "title": "Brauchtum & Traditionen",
+      "quote": "Das Brauchtum macht den einen Tag vom anderen verschieden, die eine Stunde von den anderen Stunden.",
+      "quoteAuthor": "- nach Antoine de Saint-Exupéry",
+      "intro": "Die Region pflegt eine lebendige Brauchtumskultur mit traditionellen Festen und Bräuchen das ganze Jahr über. Diese Traditionen sind tief in der Gemeinschaft verwurzelt und werden von Generation zu Generation weitergegeben.",
+      "items": [
+        { "date": "1. Februar", "title": "Ante Pante / Kirchleintragen", "text": "Traditionelles Kirchleintragen in Bad Eisenkappel mit dem Spruch \"Ante pante populore, kocle vrate cvile lore\" - ein einzigartiger Brauch der Region." },
+        { "date": "19. März", "title": "Josefimarkt", "text": "Traditioneller Markt in Nötsch mit regionalen Produkten und Handwerk." },
+        { "date": "Karwoche", "title": "Palmbuschentragen", "text": "Traditionelles Brauchtum zur Karwoche mit kunstvoll gebundenen Palmbuschen." },
+        { "date": "Sommer", "title": "Kirchtage", "text": "Traditionelle Feste wie das Kufenstechen im Gailtal mit Musik, Tanz und regionalen Spezialitäten." },
+        { "date": "21. Juni", "title": "Sonnwendfeuer", "text": "Feierlichkeiten zur Sommersonnenwende mit Bergfeuern in der ganzen Region." },
+        { "date": "1. Samstag Oktober", "title": "Polentafest", "text": "Traditionelles Fest in Nötsch rund um das beliebte Maisgericht." },
+        { "date": "4. Dezember", "title": "Barbaratag", "text": "Traditioneller Feiertag der Bergleute mit besonderen Bräuchen." },
+        { "date": "Dezember", "title": "Krampus & Perchten", "text": "Spektakuläre Umzüge der Perchtengruppe Bad Eisenkappel - ein Höhepunkt des Winters." },
+        { "date": "Advent", "title": "Adventmärkte & Rorate", "text": "Besinnliche Adventszeit mit traditionellen Märkten und frühmorgendlichen Rorate-Messen." },
+        { "date": "26. Dezember", "title": "Pferdesegnung", "text": "Traditionelle Segnung der Pferde am Stefanietag." },
+        { "date": "28. Dezember", "title": "\"Frisch und gsund\"", "text": "Traditioneller Brauch am Unschuldigen Kindertag mit Rutenschlägen für Gesundheit." },
+        { "date": "Neujahr", "title": "Sternsingen", "text": "Traditionelles Sternsingen in der Neujahrszeit - die Heiligen Drei Könige ziehen von Haus zu Haus." }
+      ]
+    },
+    "links": {
+      "title": "Nützliche Links",
+      "intro": "Weitere Informationen und Planungshilfen für Ihren Aufenthalt.",
+      "items": [
+        { "title": "Infomaterial Bad Eisenkappel", "desc": "Broschüren und Informationen zum Download" },
+        { "title": "Übersichtskarte", "desc": "Interaktive Karte der Region" },
+        { "title": "Jezersko (Slowenien)", "desc": "Unser Geheimtipp mit herzförmigem See" },
+        { "title": "Perchtengruppe Bad Eisenkappel", "desc": "Traditionelle Perchtengruppe der Region" }
+      ]
+    },
+    "closing": {
+      "quote": "Jeder sieht einen Teil der Wirklichkeit; zusammen sehen wir das ganze Bild.",
+      "text": "Wir erweitern unsere Galerie laufend mit Fotos von Gästen. Teilen Sie Ihre schönsten Eindrücke mit uns!"
+    }
+  },
+  "preise": {
+    "hero": {
+      "title": "Preise & Belegung",
+      "subtitle": "Transparente Preise für Ihren Traumurlaub in Kärnten"
+    },
+    "season": {
+      "title": "Saisonpreise",
+      "low": {
+        "title": "Nebensaison",
+        "period": "Oktober - Mai",
+        "note": "(außer Ostern, Weihnachten, Silvester)"
+      },
+      "high": {
+        "title": "Hauptsaison",
+        "period": "Juni - September",
+        "badge": "Beliebt"
+      },
+      "holiday": {
+        "title": "Feiertage",
+        "period": "Ostern, Weihnachten, Silvester"
+      },
+      "perNight": "pro Nacht"
+    },
+    "extras": {
+      "title": "Zusätzliche Kosten",
+      "cleaning": {
+        "title": "Endreinigung, Bettwäsche & Handtücher",
+        "note": "einmalig"
+      },
+      "deposit": {
+        "title": "Kaution",
+        "note": "Rückgabe bei Abreise"
+      },
+      "tax": {
+        "title": "Orts- und Nächtigungstaxe",
+        "note": "pro Nacht pro Person"
+      },
+      "dogs": {
+        "title": "Hunde",
+        "price": "Gratis!",
+        "note": "bis zu 3 Hunde kostenfrei"
+      }
+    },
+    "included": {
+      "title": "Im Preis inklusive",
+      "items": ["Bis zu 4 Erwachsene/Teenager + 2 Kinder", "Strom und Wasser", "Holz für Kaminofen", "W-LAN", "Reisegitterbett/Zustellbett (auf Anfrage)", "Hundrum-Sorglospaket"]
+    },
+    "conditions": {
+      "title": "Buchungsbedingungen",
+      "arrivalDay": {
+        "title": "An- und Abreisetag",
+        "text": "Samstag"
+      },
+      "checkInOut": {
+        "title": "Check-in / Check-out",
+        "text": "Anreise ab 14:00 Uhr, Abreise bis 10:00 Uhr"
+      },
+      "minStay": {
+        "title": "Mindestaufenthalt",
+        "text": "In der Hauptsaison vermieten wir wochenweise (Samstag bis Samstag). Kürzere Aufenthalte sind auf Anfrage möglich, wenn das Haus verfügbar ist."
+      },
+      "deposit": {
+        "title": "Anzahlung",
+        "text": "20% des Gesamtpreises bei Buchungsbestätigung"
+      },
+      "balance": {
+        "title": "Restzahlung",
+        "text": "14 Tage vor Anreise"
+      }
+    },
+    "calendar": {
+      "title": "Belegungskalender",
+      "intro": "Hier sehen Sie die aktuelle Verfügbarkeit unseres Ferienhauses."
+    },
+    "cta": {
+      "title": "Interesse geweckt?",
+      "text": "Kontaktieren Sie uns für Verfügbarkeit und Buchungsanfragen. Wir freuen uns auf Sie und Ihre Vierbeiner!",
+      "button": "Jetzt anfragen"
+    }
+  },
   "contact": {
     "title": "Kontaktieren Sie uns",
     "subtitle": "Haben Sie Fragen?",

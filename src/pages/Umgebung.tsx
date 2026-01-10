@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import Hero from '../components/Hero/Hero'
 import Gallery from '../components/Gallery/Gallery'
 import './Umgebung.css'
@@ -125,32 +126,64 @@ const umgebung_images = [
   { src: '/images/perchten4.jpg', alt: 'Perchtenbrauch' },
 ]
 
+interface ActivityItem {
+  name: string
+  desc: string
+  highlight?: boolean
+}
+
+interface TraditionItem {
+  date: string
+  title: string
+  text: string
+}
+
+interface LinkItem {
+  title: string
+  desc: string
+}
+
+const linkUrls = [
+  'https://www.bad-eisenkappel.info/tourismus/services/infomaterial-download.html',
+  'https://www.bad-eisenkappel.info/tourismus/services/uebersichtskarte.html',
+  'http://www.jezersko.info/de/',
+  'http://www.perchtengruppe-badeisenkappel.at'
+]
+
 const Umgebung = () => {
+  const { t } = useTranslation()
+
+  const highlightItems = t('umgebung.intro.highlights.items', { returnObjects: true }) as string[]
+
+  const hikingItems = t('umgebung.activities.hiking.items', { returnObjects: true }) as ActivityItem[]
+  const natureItems = t('umgebung.activities.nature.items', { returnObjects: true }) as ActivityItem[]
+  const waterItems = t('umgebung.activities.water.items', { returnObjects: true }) as ActivityItem[]
+  const bikingItems = t('umgebung.activities.biking.items', { returnObjects: true }) as ActivityItem[]
+  const cultureItems = t('umgebung.activities.culture.items', { returnObjects: true }) as ActivityItem[]
+  const jezerskoItems = t('umgebung.activities.jezersko.items', { returnObjects: true }) as ActivityItem[]
+
+  const traditionItems = t('umgebung.traditions.items', { returnObjects: true }) as TraditionItem[]
+  const linkItems = t('umgebung.links.items', { returnObjects: true }) as LinkItem[]
+
   return (
     <div className="umgebung-page">
       <Hero
-        title="Umgebung / Aktivitäten / Brauchtum"
-        subtitle="Entdecken Sie die Natur beidseitig der Grenze - Kärnten und Slowenien"
+        title={t('umgebung.hero.title')}
+        subtitle={t('umgebung.hero.subtitle')}
         backgroundImage="/images/b_DJI_0142-1920.jpg"
       />
 
       <section className="section">
         <div className="container">
           <div className="intro-block">
-            <h2>Standort & Umgebung</h2>
-            <p>
-              Das Ferienhaus befindet sich in Vellach, gehört zur Marktgemeinde Bad Eisenkappel
-              in Kärnten und liegt nahe der slowenischen Grenze. Erholungssuchende und
-              Aktivurlauber können die Natur beidseitig der Grenze genießen. Es erwarten Sie
-              umfangreiche Freizeitmöglichkeiten, Ausflugsziele und eine Landschaft mit
-              lebendiger Brauchtumskultur und regionalen Traditionen.
-            </p>
+            <h2>{t('umgebung.intro.title')}</h2>
+            <p>{t('umgebung.intro.text')}</p>
             <div className="highlight-box">
-              <h3>Eisenkappel-Vellach Besonderheiten</h3>
+              <h3>{t('umgebung.intro.highlights.title')}</h3>
               <ul>
-                <li>Zwei Grenzübergänge nach Slowenien (Seebergsattel und Paulitschsattel)</li>
-                <li>Bad Eisenkappel ist Österreichs einziger Ort mit der Doppelbezeichnung Kurort und Luftkurort</li>
-                <li>Südlichste Gemeinde Österreichs</li>
+                {highlightItems.map((item, i) => (
+                  <li key={i}>{item}</li>
+                ))}
               </ul>
             </div>
           </div>
@@ -159,198 +192,92 @@ const Umgebung = () => {
 
       <section className="section section-alt">
         <div className="container">
-          <h2 className="section-title">Bildergalerie</h2>
-          <p className="section-intro">
-            Entdecken Sie die vielfältige Landschaft und Kultur der Region in unserer Galerie.
-            Klicken Sie auf ein Bild für eine größere Ansicht.
-          </p>
+          <h2 className="section-title">{t('umgebung.gallery.title')}</h2>
+          <p className="section-intro">{t('umgebung.gallery.intro')}</p>
           <Gallery images={umgebung_images} />
         </div>
       </section>
 
       <section className="section">
         <div className="container">
-          <h2 className="section-title">Aktivitäten & Ausflugsziele</h2>
-          <p className="section-intro">
-            Ob Wandern, Radfahren, Schwimmen oder kulturelle Entdeckungen - die Region bietet
-            für jeden Geschmack das Richtige.
-          </p>
+          <h2 className="section-title">{t('umgebung.activities.title')}</h2>
+          <p className="section-intro">{t('umgebung.activities.intro')}</p>
 
           <div className="activity-category">
-            <h3>Wandern & Bergsteigen</h3>
-            <p className="category-description">
-              Die Bergwelt rund um Bad Eisenkappel lädt zu unvergesslichen Wanderungen ein.
-              Vom gemütlichen Spaziergang bis zur anspruchsvollen Gipfeltour ist alles möglich.
-            </p>
+            <h3>{t('umgebung.activities.hiking.title')}</h3>
+            <p className="category-description">{t('umgebung.activities.hiking.description')}</p>
             <div className="activity-grid">
-              <div className="activity-item">
-                <strong>Hochobir (2.139m)</strong>
-                <span>Beliebter Aussichtsberg mit Panoramablick</span>
-              </div>
-              <div className="activity-item">
-                <strong>Petzen</strong>
-                <span>Bergbahn, Wanderwege und Bikepark</span>
-              </div>
-              <div className="activity-item">
-                <strong>Kärntner Storschitz</strong>
-                <span>Grenzüberschreitende Wanderungen</span>
-              </div>
-              <div className="activity-item">
-                <strong>Koschuta</strong>
-                <span>Klettersteige und alpine Touren</span>
-              </div>
-              <div className="activity-item">
-                <strong>Luschaalm</strong>
-                <span>Almwanderung mit Einkehrmöglichkeit</span>
-              </div>
-              <div className="activity-item">
-                <strong>Kneipp-Wanderweg</strong>
-                <span>Gesundheitsweg in Bad Eisenkappel</span>
-              </div>
+              {hikingItems.map((item, i) => (
+                <div className={`activity-item${item.highlight ? ' highlight' : ''}`} key={i}>
+                  <strong>{item.name}</strong>
+                  <span>{item.desc}</span>
+                </div>
+              ))}
             </div>
           </div>
 
           <div className="activity-category">
-            <h3>Natursehenswürdigkeiten</h3>
-            <p className="category-description">
-              Beeindruckende Naturwunder warten darauf, entdeckt zu werden.
-            </p>
+            <h3>{t('umgebung.activities.nature.title')}</h3>
+            <p className="category-description">{t('umgebung.activities.nature.description')}</p>
             <div className="activity-grid">
-              <div className="activity-item highlight">
-                <strong>Obir Tropfsteinhöhle</strong>
-                <span>Faszinierende Höhlenwelt mit Führungen</span>
-              </div>
-              <div className="activity-item">
-                <strong>Wildensteiner Wasserfall</strong>
-                <span>Spektakulärer 54m hoher Wasserfall</span>
-              </div>
-              <div className="activity-item">
-                <strong>Trögerner Klamm</strong>
-                <span>Wildromantische Schlucht</span>
-              </div>
-              <div className="activity-item">
-                <strong>Kupitzklamm</strong>
-                <span>Natürliche Klamm mit Wanderweg</span>
-              </div>
-              <div className="activity-item">
-                <strong>Hemmaberg</strong>
-                <span>Archäologische Ausgrabungen und Wallfahrtskirche</span>
-              </div>
-              <div className="activity-item">
-                <strong>Christophorusfelsen</strong>
-                <span>Markante Felsformation</span>
-              </div>
+              {natureItems.map((item, i) => (
+                <div className={`activity-item${item.highlight ? ' highlight' : ''}`} key={i}>
+                  <strong>{item.name}</strong>
+                  <span>{item.desc}</span>
+                </div>
+              ))}
             </div>
           </div>
 
           <div className="activity-category">
-            <h3>Wassersport & Freizeit</h3>
-            <p className="category-description">
-              Erfrischende Abkühlung und Wasserspaß in der Umgebung.
-            </p>
+            <h3>{t('umgebung.activities.water.title')}</h3>
+            <p className="category-description">{t('umgebung.activities.water.description')}</p>
             <div className="activity-grid">
-              <div className="activity-item">
-                <strong>Freibad Bad Eisenkappel</strong>
-                <span>Familienfreundliches Schwimmbad</span>
-              </div>
-              <div className="activity-item">
-                <strong>Sonnegger See</strong>
-                <span>Naturbadeplatz und Freibad</span>
-              </div>
-              <div className="activity-item">
-                <strong>Klopeiner See</strong>
-                <span>Wärmster Badesee Europas</span>
-              </div>
-              <div className="activity-item">
-                <strong>Turnersee</strong>
-                <span>Vogelpark und Badeplätze</span>
-              </div>
-              <div className="activity-item">
-                <strong>Kajak Rudnik Mezica</strong>
-                <span>Kajakfahren im ehemaligen Bergwerk</span>
-              </div>
-              <div className="activity-item">
-                <strong>Walderlebniswelt Klopeiner See</strong>
-                <span>Abenteuer für die ganze Familie</span>
-              </div>
+              {waterItems.map((item, i) => (
+                <div className={`activity-item${item.highlight ? ' highlight' : ''}`} key={i}>
+                  <strong>{item.name}</strong>
+                  <span>{item.desc}</span>
+                </div>
+              ))}
             </div>
           </div>
 
           <div className="activity-category">
-            <h3>Radfahren & Biken</h3>
-            <p className="category-description">
-              Von gemütlichen Radtouren bis zu actionreichen Downhill-Strecken.
-            </p>
+            <h3>{t('umgebung.activities.biking.title')}</h3>
+            <p className="category-description">{t('umgebung.activities.biking.description')}</p>
             <div className="activity-grid">
-              <div className="activity-item highlight">
-                <strong>Stollenbiken Petzen</strong>
-                <span>Einzigartiges Mountainbiken im Bergwerk</span>
-              </div>
-              <div className="activity-item">
-                <strong>Bikepark Petzen</strong>
-                <span>Downhill-Strecken für alle Levels</span>
-              </div>
-              <div className="activity-item">
-                <strong>Familienradwege</strong>
-                <span>Gemütliche Touren durch die Region</span>
-              </div>
-              <div className="activity-item">
-                <strong>Mountainbike-Touren</strong>
-                <span>Anspruchsvolle Strecken in den Bergen</span>
-              </div>
+              {bikingItems.map((item, i) => (
+                <div className={`activity-item${item.highlight ? ' highlight' : ''}`} key={i}>
+                  <strong>{item.name}</strong>
+                  <span>{item.desc}</span>
+                </div>
+              ))}
             </div>
           </div>
 
           <div className="activity-category">
-            <h3>Kulturelle Sehenswürdigkeiten</h3>
-            <p className="category-description">
-              Geschichte und Kultur der Region erleben.
-            </p>
+            <h3>{t('umgebung.activities.culture.title')}</h3>
+            <p className="category-description">{t('umgebung.activities.culture.description')}</p>
             <div className="activity-grid">
-              <div className="activity-item">
-                <strong>Pfarrkirche Bad Eisenkappel</strong>
-                <span>Historische Kirche im Ortszentrum</span>
-              </div>
-              <div className="activity-item">
-                <strong>Kirche St. Leonhard</strong>
-                <span>Romanische Kirche auf dem Berghang</span>
-              </div>
-              <div className="activity-item">
-                <strong>Maria Dorn</strong>
-                <span>Wallfahrtskirche</span>
-              </div>
-              <div className="activity-item">
-                <strong>Koschnigkreuz</strong>
-                <span>Traditionelles Wegkreuz</span>
-              </div>
-              <div className="activity-item">
-                <strong>Panunziuskreuz Schaida</strong>
-                <span>Historische Gedenkstätte</span>
-              </div>
-              <div className="activity-item">
-                <strong>Hemmaberg Ausgrabungen</strong>
-                <span>Frühchristliche Kirchenanlage</span>
-              </div>
+              {cultureItems.map((item, i) => (
+                <div className={`activity-item${item.highlight ? ' highlight' : ''}`} key={i}>
+                  <strong>{item.name}</strong>
+                  <span>{item.desc}</span>
+                </div>
+              ))}
             </div>
           </div>
 
           <div className="activity-category geheimtipp">
-            <h3>Unser Geheimtipp: Jezersko (Slowenien)</h3>
-            <p className="category-description">
-              Das Bergdorf Jezersko liegt umgeben von den Steiner Alpen und der Karawankenkette.
-              Besonders bekannt ist der herzförmige Stausee, der an den ehemaligen Gletschersee
-              erinnert, dem der Ort seinen Namen verdankt. Ein wunderschönes Ausflugsziel
-              direkt hinter der Grenze!
-            </p>
+            <h3>{t('umgebung.activities.jezersko.title')}</h3>
+            <p className="category-description">{t('umgebung.activities.jezersko.description')}</p>
             <div className="activity-grid">
-              <div className="activity-item highlight">
-                <strong>Herzförmiger See</strong>
-                <span>Romantisches Naturschauspiel</span>
-              </div>
-              <div className="activity-item">
-                <strong>Steiner Alpen</strong>
-                <span>Beeindruckende Bergkulisse</span>
-              </div>
+              {jezerskoItems.map((item, i) => (
+                <div className={`activity-item${item.highlight ? ' highlight' : ''}`} key={i}>
+                  <strong>{item.name}</strong>
+                  <span>{item.desc}</span>
+                </div>
+              ))}
             </div>
           </div>
         </div>
@@ -358,125 +285,41 @@ const Umgebung = () => {
 
       <section className="section section-alt">
         <div className="container">
-          <h2 className="section-title">Brauchtum & Traditionen</h2>
+          <h2 className="section-title">{t('umgebung.traditions.title')}</h2>
           <blockquote className="philosophy-quote">
-            "Das Brauchtum macht den einen Tag vom anderen verschieden,
-            die eine Stunde von den anderen Stunden."
-            <cite>- nach Antoine de Saint-Exupéry</cite>
+            "{t('umgebung.traditions.quote')}"
+            <cite>{t('umgebung.traditions.quoteAuthor')}</cite>
           </blockquote>
-          <p className="section-intro">
-            Die Region pflegt eine lebendige Brauchtumskultur mit traditionellen Festen
-            und Bräuchen das ganze Jahr über. Diese Traditionen sind tief in der Gemeinschaft
-            verwurzelt und werden von Generation zu Generation weitergegeben.
-          </p>
+          <p className="section-intro">{t('umgebung.traditions.intro')}</p>
           <div className="traditions-grid">
-            <div className="tradition-card">
-              <span className="tradition-date">1. Februar</span>
-              <h4>Ante Pante / Kirchleintragen</h4>
-              <p>Traditionelles Kirchleintragen in Bad Eisenkappel mit dem Spruch "Ante pante populore, kocle vrate cvile lore" - ein einzigartiger Brauch der Region.</p>
-            </div>
-            <div className="tradition-card">
-              <span className="tradition-date">19. März</span>
-              <h4>Josefimarkt</h4>
-              <p>Traditioneller Markt in Nötsch mit regionalen Produkten und Handwerk.</p>
-            </div>
-            <div className="tradition-card">
-              <span className="tradition-date">Karwoche</span>
-              <h4>Palmbuschentragen</h4>
-              <p>Traditionelles Brauchtum zur Karwoche mit kunstvoll gebundenen Palmbuschen.</p>
-            </div>
-            <div className="tradition-card">
-              <span className="tradition-date">Sommer</span>
-              <h4>Kirchtage</h4>
-              <p>Traditionelle Feste wie das Kufenstechen im Gailtal mit Musik, Tanz und regionalen Spezialitäten.</p>
-            </div>
-            <div className="tradition-card">
-              <span className="tradition-date">21. Juni</span>
-              <h4>Sonnwendfeuer</h4>
-              <p>Feierlichkeiten zur Sommersonnenwende mit Bergfeuern in der ganzen Region.</p>
-            </div>
-            <div className="tradition-card">
-              <span className="tradition-date">1. Samstag Oktober</span>
-              <h4>Polentafest</h4>
-              <p>Traditionelles Fest in Nötsch rund um das beliebte Maisgericht.</p>
-            </div>
-            <div className="tradition-card">
-              <span className="tradition-date">4. Dezember</span>
-              <h4>Barbaratag</h4>
-              <p>Traditioneller Feiertag der Bergleute mit besonderen Bräuchen.</p>
-            </div>
-            <div className="tradition-card">
-              <span className="tradition-date">Dezember</span>
-              <h4>Krampus & Perchten</h4>
-              <p>Spektakuläre Umzüge der Perchtengruppe Bad Eisenkappel - ein Höhepunkt des Winters.</p>
-            </div>
-            <div className="tradition-card">
-              <span className="tradition-date">Advent</span>
-              <h4>Adventmärkte & Rorate</h4>
-              <p>Besinnliche Adventszeit mit traditionellen Märkten und frühmorgendlichen Rorate-Messen.</p>
-            </div>
-            <div className="tradition-card">
-              <span className="tradition-date">26. Dezember</span>
-              <h4>Pferdesegnung</h4>
-              <p>Traditionelle Segnung der Pferde am Stefanietag.</p>
-            </div>
-            <div className="tradition-card">
-              <span className="tradition-date">28. Dezember</span>
-              <h4>"Frisch und gsund"</h4>
-              <p>Traditioneller Brauch am Unschuldigen Kindertag mit Rutenschlägen für Gesundheit.</p>
-            </div>
-            <div className="tradition-card">
-              <span className="tradition-date">Neujahr</span>
-              <h4>Sternsingen</h4>
-              <p>Traditionelles Sternsingen in der Neujahrszeit - die Heiligen Drei Könige ziehen von Haus zu Haus.</p>
-            </div>
+            {traditionItems.map((item, i) => (
+              <div className="tradition-card" key={i}>
+                <span className="tradition-date">{item.date}</span>
+                <h4>{item.title}</h4>
+                <p>{item.text}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       <section className="section">
         <div className="container">
-          <h2 className="section-title">Nützliche Links</h2>
-          <p className="section-intro">
-            Weitere Informationen und Planungshilfen für Ihren Aufenthalt.
-          </p>
+          <h2 className="section-title">{t('umgebung.links.title')}</h2>
+          <p className="section-intro">{t('umgebung.links.intro')}</p>
           <div className="links-grid">
-            <a
-              href="https://www.bad-eisenkappel.info/tourismus/services/infomaterial-download.html"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="link-card"
-            >
-              <h4>Infomaterial Bad Eisenkappel</h4>
-              <p>Broschüren und Informationen zum Download</p>
-            </a>
-            <a
-              href="https://www.bad-eisenkappel.info/tourismus/services/uebersichtskarte.html"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="link-card"
-            >
-              <h4>Übersichtskarte</h4>
-              <p>Interaktive Karte der Region</p>
-            </a>
-            <a
-              href="http://www.jezersko.info/de/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="link-card"
-            >
-              <h4>Jezersko (Slowenien)</h4>
-              <p>Unser Geheimtipp mit herzförmigem See</p>
-            </a>
-            <a
-              href="http://www.perchtengruppe-badeisenkappel.at"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="link-card"
-            >
-              <h4>Perchtengruppe Bad Eisenkappel</h4>
-              <p>Traditionelle Perchtengruppe der Region</p>
-            </a>
+            {linkItems.map((item, i) => (
+              <a
+                key={i}
+                href={linkUrls[i]}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link-card"
+              >
+                <h4>{item.title}</h4>
+                <p>{item.desc}</p>
+              </a>
+            ))}
           </div>
         </div>
       </section>
@@ -485,14 +328,9 @@ const Umgebung = () => {
         <div className="container">
           <div className="closing-note">
             <p>
-              <em>
-                "Jeder sieht einen Teil der Wirklichkeit; zusammen sehen wir das ganze Bild."
-              </em>
+              <em>"{t('umgebung.closing.quote')}"</em>
             </p>
-            <p>
-              Wir erweitern unsere Galerie laufend mit Fotos von Gästen.
-              Teilen Sie Ihre schönsten Eindrücke mit uns!
-            </p>
+            <p>{t('umgebung.closing.text')}</p>
           </div>
         </div>
       </section>

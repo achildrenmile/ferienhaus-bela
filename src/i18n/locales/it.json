@@ -39,6 +39,318 @@
     },
     "impressions": "Impressioni"
   },
+  "ferienhaus": {
+    "hero": {
+      "title": "La Casa Vacanze",
+      "subtitle": "84 m² di superficie abitabile su due piani - accogliente e completamente attrezzata"
+    },
+    "location": {
+      "title": "Posizione & Descrizione",
+      "text": "La casa vacanze si trova a circa 4 km dalla città termale di Bad Eisenkappel, direttamente sul fiume Vellach (sloveno: Bela). La posizione idilliaca vi permette di godere della natura lontano dalla frenesia e dal rumore. I cani sono i benvenuti."
+    },
+    "size": {
+      "title": "Dimensioni & Capacità",
+      "area": "Superficie",
+      "persons": "Persone (4 adulti + 2 bambini)",
+      "garden": "Giardino",
+      "bedrooms": "Camere da letto"
+    },
+    "rooms": {
+      "title": "Disposizione degli Ambienti",
+      "ground": "Piano Terra",
+      "upper": "Piano Superiore",
+      "groundItems": ["Ingresso", "Soggiorno con stufa in maiolica", "Cucina-pranzo", "Bagno", "WC separato"],
+      "upperItems": ["Corridoio", "Camera 1 (letto matrimoniale 180×200 cm)", "Camera 2 (letto matrimoniale 180×200 cm)", "Letto aggiuntivo/lettino da viaggio su richiesta"]
+    },
+    "equipment": {
+      "title": "Dotazioni",
+      "kitchen": "Cucina",
+      "kitchenItems": ["Fornello elettrico con forno", "Frigorifero con congelatore", "Congelatore separato", "Macchina da caffè automatica", "Bollitore e tostapane", "Stoviglie e posate per 6+ persone"],
+      "living": "Zona Giorno",
+      "livingItems": ["Accogliente stufa in maiolica", "TV (Video on Demand)", "Playstation", "Libri e giochi"],
+      "bathroom": "Bagno",
+      "bathroomItems": ["Lavatrice", "Asciugatrice", "Asciugacapelli"],
+      "gardenTitle": "Giardino",
+      "gardenItems": ["Mobili da giardino", "Barbecue", "Trampolino", "Scivolo e sabbiera", "Giocattoli per bambini (stagionali)"],
+      "other": "Altro",
+      "otherItems": ["Wi-Fi gratuito", "Parcheggio davanti alla casa"],
+      "dogPackage": "Pacchetto Cura Cani",
+      "dogPackageItems": ["Biscotti per cani", "Ciotole per acqua/cibo", "Cuccia", "Coperte per cani", "Giocattoli", "Doccia per cani in giardino", "Sacchetti igienici", "Asciugamani"]
+    },
+    "gallery": "Galleria Fotografica"
+  },
+  "hundeurlaub": {
+    "hero": {
+      "title": "Vacanza con Cani",
+      "subtitle": "I cani non sono solo ammessi ma CALOROSAMENTE BENVENUTI e soggiornano gratuitamente!"
+    },
+    "intro": {
+      "title": "Vacanza con Cane in Carinzia",
+      "text": "Siamo noi stessi proprietari di tre cani e abbiamo progettato la nostra offerta specificamente per vacanze dog-friendly. Qui voi e i vostri amici a quattro zampe potete rilassarvi e godervi la natura."
+    },
+    "package": {
+      "title": "Pacchetto Cura Cani",
+      "subtitle": "Gratuito per tutti gli amici a quattro zampe",
+      "items": ["Biscotti per cani", "Ciotole per acqua e cibo", "Cuccia", "Coperte per cani", "Giocattoli per cani", "Doccia per cani in giardino", "Sacchetti igienici", "Asciugamani per cani"]
+    },
+    "outdoor": {
+      "title": "Proprietà & Outdoor",
+      "property": {
+        "title": "Proprietà di 1.300 m²",
+        "text": "Tanto spazio per i vostri amici a quattro zampe per giocare, correre ed esplorare."
+      },
+      "river": {
+        "title": "Direttamente sul Vellach",
+        "text": "Il fiume offre il perfetto refrigerio estivo per i cani che amano l'acqua."
+      },
+      "fenced": {
+        "title": "Giardino Recintato",
+        "text": "Ambiente sicuro per rilassarsi all'aperto."
+      }
+    },
+    "rules": {
+      "title": "Regole & Capacità",
+      "count": {
+        "title": "Numero di Cani",
+        "text": "Massimo 3 cani. Più cani possibili su richiesta."
+      },
+      "inside": {
+        "title": "In Casa",
+        "text": "I cani non sono ammessi sui letti o sul divano. Coperte e cucce sono fornite per gli amici a quattro zampe."
+      },
+      "cost": {
+        "title": "Costo",
+        "text": "I cani soggiornano da noi gratuitamente!"
+      }
+    },
+    "ourDogs": {
+      "title": "I Nostri Cani",
+      "subtitle": "Gli ospiti a quattro zampe",
+      "kiki": {
+        "name": "Kiki",
+        "breed": "Pastore Croato Mix",
+        "description": "Sfacciata, leale, sicura di sé - la nostra tranquilla capobranco"
+      },
+      "king": {
+        "name": "King",
+        "breed": "Aussie",
+        "description": "Pagliaccio giocoso, molto desideroso di imparare e sempre al centro dell'attenzione"
+      },
+      "neo": {
+        "name": "Neo",
+        "breed": "Il Nuovo del Branco",
+        "description": "Il nostro punk sfacciato - divertente, selvaggio e sempre pronto a fare birichinate"
+      },
+      "memorial": {
+        "title": "In Amorevole Ricordo di Kira",
+        "subtitle": "Border Collie Mix - Per Sempre nei Nostri Cuori",
+        "text": "Voglia di compiacere, maniaca della palla, attenta e la più grande coccolona. Hai incantato innumerevoli ospiti con la tua natura gentile. Ci manchi ogni giorno."
+      }
+    },
+    "gallery": "Galleria Fotografica"
+  },
+  "umgebung": {
+    "hero": {
+      "title": "Dintorni / Attività / Tradizioni",
+      "subtitle": "Scoprite la natura su entrambi i lati del confine - Carinzia e Slovenia"
+    },
+    "intro": {
+      "title": "Posizione & Dintorni",
+      "text": "La casa vacanze si trova a Vellach, appartiene al comune di Bad Eisenkappel in Carinzia ed è vicina al confine sloveno. Chi cerca relax e vacanzieri attivi possono godersi la natura su entrambi i lati del confine. Vi aspettano ampie opportunità di svago, mete per escursioni e un paesaggio con vivace cultura folcloristica e tradizioni regionali.",
+      "highlights": {
+        "title": "Particolarità di Eisenkappel-Vellach",
+        "items": ["Due valichi di frontiera verso la Slovenia (Seebergsattel e Paulitschsattel)", "Bad Eisenkappel è l'unico luogo in Austria con la doppia denominazione di città termale e località climatica", "Comune più meridionale dell'Austria"]
+      }
+    },
+    "gallery": {
+      "title": "Galleria Fotografica",
+      "intro": "Scoprite il variegato paesaggio e la cultura della regione nella nostra galleria. Cliccate su un'immagine per una vista più grande."
+    },
+    "activities": {
+      "title": "Attività & Escursioni",
+      "intro": "Che sia escursionismo, ciclismo, nuoto o scoperte culturali - la regione offre qualcosa per tutti i gusti.",
+      "hiking": {
+        "title": "Escursionismo & Alpinismo",
+        "description": "Il mondo montano intorno a Bad Eisenkappel invita a escursioni indimenticabili. Dalle passeggiate tranquille alle impegnative ascese in vetta, tutto è possibile.",
+        "items": [
+          { "name": "Hochobir (2.139m)", "desc": "Popolare montagna panoramica con vista a 360°" },
+          { "name": "Petzen", "desc": "Funivia, sentieri escursionistici e bike park" },
+          { "name": "Storschitz Carinziano", "desc": "Escursioni transfrontaliere" },
+          { "name": "Koschuta", "desc": "Vie ferrate e tour alpini" },
+          { "name": "Luschaalm", "desc": "Escursione in alpeggio con ristoro" },
+          { "name": "Sentiero Kneipp", "desc": "Percorso della salute a Bad Eisenkappel" }
+        ]
+      },
+      "nature": {
+        "title": "Attrazioni Naturali",
+        "description": "Impressionanti meraviglie naturali aspettano di essere scoperte.",
+        "items": [
+          { "name": "Grotta Obir", "desc": "Affascinante mondo di stalattiti con visite guidate", "highlight": true },
+          { "name": "Cascata Wildensteiner", "desc": "Spettacolare cascata alta 54m" },
+          { "name": "Gola Trögerner", "desc": "Romantica gola selvaggia" },
+          { "name": "Kupitzklamm", "desc": "Gola naturale con sentiero escursionistico" },
+          { "name": "Hemmaberg", "desc": "Scavi archeologici e chiesa di pellegrinaggio" },
+          { "name": "Roccia Cristoforo", "desc": "Formazione rocciosa distintiva" }
+        ]
+      },
+      "water": {
+        "title": "Sport Acquatici & Tempo Libero",
+        "description": "Rinfrescante refrigerio e divertimento acquatico nella zona.",
+        "items": [
+          { "name": "Piscina Bad Eisenkappel", "desc": "Piscina adatta alle famiglie" },
+          { "name": "Lago Sonnegger", "desc": "Area balneare naturale e piscina" },
+          { "name": "Lago Klopeiner", "desc": "Lago balneabile più caldo d'Europa" },
+          { "name": "Turnersee", "desc": "Parco degli uccelli e aree balneari" },
+          { "name": "Kayak Rudnik Mezica", "desc": "Kayak in un'ex miniera" },
+          { "name": "Mondo Avventura Bosco Klopeiner See", "desc": "Avventura per tutta la famiglia" }
+        ]
+      },
+      "biking": {
+        "title": "Ciclismo & Mountain Bike",
+        "description": "Dalle tranquille gite in bicicletta ai percorsi downhill adrenalinici.",
+        "items": [
+          { "name": "Mine Biking Petzen", "desc": "Unico mountain bike in miniera", "highlight": true },
+          { "name": "Bikepark Petzen", "desc": "Piste downhill per tutti i livelli" },
+          { "name": "Piste Ciclabili Familiari", "desc": "Tour tranquilli nella regione" },
+          { "name": "Tour Mountain Bike", "desc": "Percorsi impegnativi in montagna" }
+        ]
+      },
+      "culture": {
+        "title": "Attrazioni Culturali",
+        "description": "Vivete la storia e la cultura della regione.",
+        "items": [
+          { "name": "Chiesa Parrocchiale Bad Eisenkappel", "desc": "Chiesa storica nel centro città" },
+          { "name": "Chiesa St. Leonhard", "desc": "Chiesa romanica sul pendio" },
+          { "name": "Maria Dorn", "desc": "Chiesa di pellegrinaggio" },
+          { "name": "Koschnigkreuz", "desc": "Croce tradizionale" },
+          { "name": "Panunziuskreuz Schaida", "desc": "Memoriale storico" },
+          { "name": "Scavi Hemmaberg", "desc": "Complesso ecclesiastico paleocristiano" }
+        ]
+      },
+      "jezersko": {
+        "title": "Il Nostro Consiglio: Jezersko (Slovenia)",
+        "description": "Il villaggio montano di Jezersko è circondato dalle Alpi di Steiner e dalla catena delle Caravanche. È particolarmente noto per il bacino a forma di cuore, che ricorda l'antico lago glaciale che ha dato il nome al luogo. Una bellissima meta escursionistica appena oltre il confine!",
+        "items": [
+          { "name": "Lago a Forma di Cuore", "desc": "Romantico spettacolo naturale", "highlight": true },
+          { "name": "Alpi di Steiner", "desc": "Impressionante scenario montano" }
+        ]
+      }
+    },
+    "traditions": {
+      "title": "Usanze & Tradizioni",
+      "quote": "La tradizione rende un giorno diverso dall'altro, un'ora diversa dalle altre ore.",
+      "quoteAuthor": "- da Antoine de Saint-Exupéry",
+      "intro": "La regione mantiene un vivace folclore con feste tradizionali e usanze durante tutto l'anno. Queste tradizioni sono profondamente radicate nella comunità e vengono tramandate di generazione in generazione.",
+      "items": [
+        { "date": "1 Febbraio", "title": "Ante Pante / Trasporto della Chiesa", "text": "Tradizionale trasporto della chiesa a Bad Eisenkappel con il detto \"Ante pante populore, kocle vrate cvile lore\" - un'usanza unica della regione." },
+        { "date": "19 Marzo", "title": "Mercato di San Giuseppe", "text": "Mercato tradizionale a Nötsch con prodotti regionali e artigianato." },
+        { "date": "Settimana Santa", "title": "Trasporto dei Rami di Palma", "text": "Usanza tradizionale durante la Settimana Santa con rami di palma artisticamente legati." },
+        { "date": "Estate", "title": "Fiere Parrocchiali", "text": "Feste tradizionali come la giostra delle botti nella Gailtal con musica, balli e specialità regionali." },
+        { "date": "21 Giugno", "title": "Fuoco del Solstizio", "text": "Celebrazioni per il solstizio d'estate con fuochi di montagna in tutta la regione." },
+        { "date": "1° Sabato Ottobre", "title": "Festa della Polenta", "text": "Festa tradizionale a Nötsch incentrata sul popolare piatto di mais." },
+        { "date": "4 Dicembre", "title": "Giorno di Santa Barbara", "text": "Festa tradizionale dei minatori con usanze speciali." },
+        { "date": "Dicembre", "title": "Krampus & Perchten", "text": "Spettacolari sfilate del gruppo Perchten di Bad Eisenkappel - un punto culminante dell'inverno." },
+        { "date": "Avvento", "title": "Mercatini dell'Avvento & Rorate", "text": "Contemplativo periodo dell'Avvento con mercatini tradizionali e messe mattutine Rorate." },
+        { "date": "26 Dicembre", "title": "Benedizione dei Cavalli", "text": "Tradizionale benedizione dei cavalli nel giorno di Santo Stefano." },
+        { "date": "28 Dicembre", "title": "\"Fresco e Sano\"", "text": "Usanza tradizionale nel giorno degli Innocenti con colpi di verga per la salute." },
+        { "date": "Capodanno", "title": "Canto della Stella", "text": "Tradizionale canto della stella nel nuovo anno - i Re Magi vanno di casa in casa." }
+      ]
+    },
+    "links": {
+      "title": "Link Utili",
+      "intro": "Ulteriori informazioni e aiuti per la pianificazione del vostro soggiorno.",
+      "items": [
+        { "title": "Materiale Informativo Bad Eisenkappel", "desc": "Brochure e informazioni da scaricare" },
+        { "title": "Mappa Panoramica", "desc": "Mappa interattiva della regione" },
+        { "title": "Jezersko (Slovenia)", "desc": "Il nostro consiglio con lago a forma di cuore" },
+        { "title": "Gruppo Perchten Bad Eisenkappel", "desc": "Gruppo Perchten tradizionale della regione" }
+      ]
+    },
+    "closing": {
+      "quote": "Ognuno vede una parte della realtà; insieme vediamo l'intero quadro.",
+      "text": "Espandiamo continuamente la nostra galleria con foto degli ospiti. Condividete con noi le vostre impressioni più belle!"
+    }
+  },
+  "preise": {
+    "hero": {
+      "title": "Prezzi & Disponibilità",
+      "subtitle": "Prezzi trasparenti per la vostra vacanza da sogno in Carinzia"
+    },
+    "season": {
+      "title": "Prezzi Stagionali",
+      "low": {
+        "title": "Bassa Stagione",
+        "period": "Ottobre - Maggio",
+        "note": "(esclusi Pasqua, Natale, Capodanno)"
+      },
+      "high": {
+        "title": "Alta Stagione",
+        "period": "Giugno - Settembre",
+        "badge": "Popolare"
+      },
+      "holiday": {
+        "title": "Festività",
+        "period": "Pasqua, Natale, Capodanno"
+      },
+      "perNight": "a notte"
+    },
+    "extras": {
+      "title": "Costi Aggiuntivi",
+      "cleaning": {
+        "title": "Pulizia finale, biancheria da letto e asciugamani",
+        "note": "una tantum"
+      },
+      "deposit": {
+        "title": "Cauzione",
+        "note": "Restituita alla partenza"
+      },
+      "tax": {
+        "title": "Tassa di soggiorno locale",
+        "note": "a notte per persona"
+      },
+      "dogs": {
+        "title": "Cani",
+        "price": "Gratis!",
+        "note": "fino a 3 cani gratuiti"
+      }
+    },
+    "included": {
+      "title": "Incluso nel Prezzo",
+      "items": ["Fino a 4 adulti/adolescenti + 2 bambini", "Elettricità e acqua", "Legna per il camino", "Wi-Fi", "Lettino da viaggio/letto aggiuntivo (su richiesta)", "Pacchetto cura cani"]
+    },
+    "conditions": {
+      "title": "Condizioni di Prenotazione",
+      "arrivalDay": {
+        "title": "Giorno di arrivo e partenza",
+        "text": "Sabato"
+      },
+      "checkInOut": {
+        "title": "Check-in / Check-out",
+        "text": "Arrivo dalle 14:00, partenza entro le 10:00"
+      },
+      "minStay": {
+        "title": "Soggiorno minimo",
+        "text": "In alta stagione affittiamo settimanalmente (da sabato a sabato). Soggiorni più brevi sono possibili su richiesta se la casa è disponibile."
+      },
+      "deposit": {
+        "title": "Acconto",
+        "text": "20% del prezzo totale alla conferma della prenotazione"
+      },
+      "balance": {
+        "title": "Saldo",
+        "text": "14 giorni prima dell'arrivo"
+      }
+    },
+    "calendar": {
+      "title": "Calendario Disponibilità",
+      "intro": "Qui potete vedere la disponibilità attuale della nostra casa vacanze."
+    },
+    "cta": {
+      "title": "Interessati?",
+      "text": "Contattateci per disponibilità e richieste di prenotazione. Non vediamo l'ora di accogliere voi e i vostri amici a quattro zampe!",
+      "button": "Richiedi Ora"
+    }
+  },
   "contact": {
     "title": "Contattateci",
     "subtitle": "Avete domande?",

@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import Hero from '../components/Hero/Hero'
 import Gallery from '../components/Gallery/Gallery'
 import './Hundeurlaub.css'
@@ -21,83 +22,57 @@ const dog_images = [
 ]
 
 const Hundeurlaub = () => {
+  const { t } = useTranslation()
+  const packageItems = t('hundeurlaub.package.items', { returnObjects: true }) as string[]
+  const packageIcons = ['🦴', '🥣', '🛏️', '🧣', '🎾', '🚿', '🗑️', '🛁']
+
   return (
     <div className="hundeurlaub-page">
       <Hero
-        title="Hundeurlaub"
-        subtitle="Hunde sind bei uns nicht nur erlaubt, sondern HERZLICH WILLKOMMEN und wohnen selbstverständlich kostenfrei!"
+        title={t('hundeurlaub.hero.title')}
+        subtitle={t('hundeurlaub.hero.subtitle')}
         backgroundImage="/images/hunde-neu-1.jpeg"
       />
 
       <section className="section">
         <div className="container">
           <div className="intro-block">
-            <h2>Urlaub mit Hund in Kärnten</h2>
-            <p>
-              Wir sind selbst Hundebesitzer mit drei Hunden und haben unser Angebot
-              speziell für hundefreundliche Ferien konzipiert. Bei uns können Sie
-              und Ihre Fellnasen entspannt die Natur genießen.
-            </p>
+            <h2>{t('hundeurlaub.intro.title')}</h2>
+            <p>{t('hundeurlaub.intro.text')}</p>
           </div>
         </div>
       </section>
 
       <section className="section section-highlight">
         <div className="container">
-          <h2 className="section-title">Hundrum-Sorglospaket</h2>
-          <p className="section-subtitle">Kostenlos für alle Vierbeiner inklusive</p>
+          <h2 className="section-title">{t('hundeurlaub.package.title')}</h2>
+          <p className="section-subtitle">{t('hundeurlaub.package.subtitle')}</p>
           <div className="package-grid">
-            <div className="package-item">
-              <div className="package-icon">🦴</div>
-              <span>Hundekekse</span>
-            </div>
-            <div className="package-item">
-              <div className="package-icon">🥣</div>
-              <span>Wasser- und Futterschüsseln</span>
-            </div>
-            <div className="package-item">
-              <div className="package-icon">🛏️</div>
-              <span>Hundekörbchen</span>
-            </div>
-            <div className="package-item">
-              <div className="package-icon">🧣</div>
-              <span>Hundedecken</span>
-            </div>
-            <div className="package-item">
-              <div className="package-icon">🎾</div>
-              <span>Hundespielzeug</span>
-            </div>
-            <div className="package-item">
-              <div className="package-icon">🚿</div>
-              <span>Hundedusche im Garten</span>
-            </div>
-            <div className="package-item">
-              <div className="package-icon">🗑️</div>
-              <span>Kotbeutel</span>
-            </div>
-            <div className="package-item">
-              <div className="package-icon">🛁</div>
-              <span>Hundehandtücher</span>
-            </div>
+            {packageItems.map((item, i) => (
+              <div className="package-item" key={i}>
+                <div className="package-icon">{packageIcons[i]}</div>
+                <span>{item}</span>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       <section className="section">
         <div className="container">
-          <h2 className="section-title">Grundstück & Outdoor</h2>
+          <h2 className="section-title">{t('hundeurlaub.outdoor.title')}</h2>
           <div className="features-row">
             <div className="feature-box">
-              <h3>1.300 m² Grundstück</h3>
-              <p>Viel Platz zum Toben, Spielen und Erkunden für Ihre Vierbeiner.</p>
+              <h3>{t('hundeurlaub.outdoor.property.title')}</h3>
+              <p>{t('hundeurlaub.outdoor.property.text')}</p>
             </div>
             <div className="feature-box">
-              <h3>Direkt an der Vellach</h3>
-              <p>Der Fluss bietet im Sommer die perfekte Abkühlung für wasserliebende Hunde.</p>
+              <h3>{t('hundeurlaub.outdoor.river.title')}</h3>
+              <p>{t('hundeurlaub.outdoor.river.text')}</p>
             </div>
             <div className="feature-box">
-              <h3>Eingezäunter Garten</h3>
-              <p>Sichere Umgebung zum Entspannen und Chillen im Freien.</p>
+              <h3>{t('hundeurlaub.outdoor.fenced.title')}</h3>
+              <p>{t('hundeurlaub.outdoor.fenced.text')}</p>
             </div>
           </div>
         </div>
@@ -105,22 +80,19 @@ const Hundeurlaub = () => {
 
       <section className="section section-alt">
         <div className="container">
-          <h2 className="section-title">Regeln & Kapazität</h2>
+          <h2 className="section-title">{t('hundeurlaub.rules.title')}</h2>
           <div className="rules-grid">
             <div className="rule-card">
-              <h4>Anzahl der Hunde</h4>
-              <p>Maximum 3 Hunde. Mehr Hunde auf Anfrage möglich.</p>
+              <h4>{t('hundeurlaub.rules.count.title')}</h4>
+              <p>{t('hundeurlaub.rules.count.text')}</p>
             </div>
             <div className="rule-card">
-              <h4>Im Haus</h4>
-              <p>
-                Hunde dürfen nicht in Betten oder auf die Couch.
-                Hundedecken und Hundekörbchen stehen für die Fellnasen bereit.
-              </p>
+              <h4>{t('hundeurlaub.rules.inside.title')}</h4>
+              <p>{t('hundeurlaub.rules.inside.text')}</p>
             </div>
             <div className="rule-card">
-              <h4>Kosten</h4>
-              <p>Hunde wohnen bei uns selbstverständlich <strong>kostenfrei</strong>!</p>
+              <h4>{t('hundeurlaub.rules.cost.title')}</h4>
+              <p><strong>{t('hundeurlaub.rules.cost.text')}</strong></p>
             </div>
           </div>
         </div>
@@ -128,34 +100,30 @@ const Hundeurlaub = () => {
 
       <section className="section">
         <div className="container">
-          <h2 className="section-title">Unsere Hunde</h2>
-          <p className="section-subtitle">Die Gastgeber auf vier Pfoten</p>
+          <h2 className="section-title">{t('hundeurlaub.ourDogs.title')}</h2>
+          <p className="section-subtitle">{t('hundeurlaub.ourDogs.subtitle')}</p>
           <div className="dogs-grid">
             <div className="dog-card">
-              <h3>Kiki</h3>
-              <p className="dog-age">Kroatischer Schäfermix</p>
-              <p>Frech, loyal, souverän - unsere ruhige Rudelchefin</p>
+              <h3>{t('hundeurlaub.ourDogs.kiki.name')}</h3>
+              <p className="dog-age">{t('hundeurlaub.ourDogs.kiki.breed')}</p>
+              <p>{t('hundeurlaub.ourDogs.kiki.description')}</p>
             </div>
             <div className="dog-card">
-              <h3>King</h3>
-              <p className="dog-age">Aussie</p>
-              <p>Verspielter Kasperl, sehr lernbereit und immer im Mittelpunkt</p>
+              <h3>{t('hundeurlaub.ourDogs.king.name')}</h3>
+              <p className="dog-age">{t('hundeurlaub.ourDogs.king.breed')}</p>
+              <p>{t('hundeurlaub.ourDogs.king.description')}</p>
             </div>
             <div className="dog-card">
-              <h3>Neo</h3>
-              <p className="dog-age">Der Neue im Rudel</p>
-              <p>Unser frecher Punk - lustig, wild und immer für Unfug zu haben</p>
+              <h3>{t('hundeurlaub.ourDogs.neo.name')}</h3>
+              <p className="dog-age">{t('hundeurlaub.ourDogs.neo.breed')}</p>
+              <p>{t('hundeurlaub.ourDogs.neo.description')}</p>
             </div>
           </div>
 
           <div className="memorial-card">
-            <h3>In liebevoller Erinnerung an Kira</h3>
-            <p className="memorial-subtitle">Border Collie Mix - Für immer in unseren Herzen</p>
-            <p>
-              Will to please, Balljunkie, aufmerksam und die größte Schmuserin.
-              Du hast unzählige Gäste mit deinem sanften Wesen verzaubert.
-              Wir vermissen dich jeden Tag.
-            </p>
+            <h3>{t('hundeurlaub.ourDogs.memorial.title')}</h3>
+            <p className="memorial-subtitle">{t('hundeurlaub.ourDogs.memorial.subtitle')}</p>
+            <p>{t('hundeurlaub.ourDogs.memorial.text')}</p>
           </div>
 
         </div>
@@ -163,7 +131,7 @@ const Hundeurlaub = () => {
 
       <section className="section section-alt">
         <div className="container">
-          <h2 className="section-title">Bildergalerie</h2>
+          <h2 className="section-title">{t('hundeurlaub.gallery')}</h2>
           <Gallery images={dog_images} />
         </div>
       </section>
