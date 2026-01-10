@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
+import ScrollToTop from './components/ScrollToTop'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import CookieConsent from './components/CookieConsent/CookieConsent'
@@ -15,6 +16,7 @@ import './styles/App.css'
 function App() {
   return (
     <div className="app">
+      <ScrollToTop />
       <Header />
       <main className="main-content">
         <Routes>
