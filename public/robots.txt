@@ -1,0 +1,56 @@
+# Robots.txt for ferienhaus-bela.at
+# https://ferienhaus-bela.at
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://ferienhaus-bela.at/sitemap.xml
+
+# LLMs.txt for AI assistants
+# https://ferienhaus-bela.at/llms.txt
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+# Allow AI crawlers for training and indexing
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Block specific paths (none for this site, but example structure)
+# Disallow: /private/
+# Disallow: /admin/
