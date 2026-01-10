@@ -13,6 +13,7 @@ const LanguageSwitcher = () => {
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng)
+    localStorage.setItem('ferienhaus-bela-language', lng)
   }
 
   return (
