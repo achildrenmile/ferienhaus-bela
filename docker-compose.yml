@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  ferienhaus-bela:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ferienhaus-bela
+    ports:
+      - "3333:3333"
+    restart: unless-stopped

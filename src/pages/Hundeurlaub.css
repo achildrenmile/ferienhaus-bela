@@ -1,0 +1,190 @@
+.hundeurlaub-page .intro-block {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hundeurlaub-page .intro-block h2 {
+  margin-bottom: var(--spacing-md);
+}
+
+.hundeurlaub-page .intro-block p {
+  font-size: 1.125rem;
+  color: var(--color-text-light);
+  line-height: 1.8;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 1.125rem;
+  color: var(--color-text-light);
+  margin-top: calc(var(--spacing-sm) * -1);
+  margin-bottom: var(--spacing-xl);
+}
+
+/* Highlight Section */
+.section-highlight {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
+  color: var(--color-white);
+}
+
+.section-highlight .section-title {
+  color: var(--color-white);
+}
+
+.section-highlight .section-title::after {
+  background: var(--color-secondary);
+}
+
+.section-highlight .section-subtitle {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Package Grid */
+.package-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--spacing-md);
+}
+
+.package-item {
+  background: rgba(255, 255, 255, 0.15);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  text-align: center;
+  transition: all var(--transition-fast);
+}
+
+.package-item:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-3px);
+}
+
+.package-icon {
+  font-size: 2.5rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+.package-item span {
+  font-size: 0.9375rem;
+  font-weight: 500;
+}
+
+/* Features Row */
+.features-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-lg);
+}
+
+.feature-box {
+  background: var(--color-white);
+  padding: var(--spacing-xl);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  text-align: center;
+}
+
+.feature-box h3 {
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.feature-box p {
+  color: var(--color-text-light);
+}
+
+/* Rules Grid */
+.rules-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-lg);
+}
+
+.rule-card {
+  background: var(--color-white);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.rule-card h4 {
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.rule-card p {
+  color: var(--color-text-light);
+  font-size: 0.9375rem;
+}
+
+.rule-card strong {
+  color: var(--color-primary);
+}
+
+/* Dogs Grid */
+.dogs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-xl);
+}
+
+.dog-card {
+  background: var(--color-bg-alt);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  text-align: center;
+  border: 2px solid transparent;
+  transition: all var(--transition-fast);
+}
+
+.dog-card:hover {
+  border-color: var(--color-primary-light);
+}
+
+.dog-card h3 {
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-xs);
+}
+
+.dog-age {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  margin-bottom: var(--spacing-sm);
+}
+
+.dog-card p:last-child {
+  color: var(--color-text-light);
+  font-style: italic;
+}
+
+.social-link-box {
+  text-align: center;
+  padding: var(--spacing-lg);
+  background: var(--color-bg-alt);
+  border-radius: var(--radius-lg);
+}
+
+.social-link-box p {
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text-light);
+}
+
+@media (max-width: 1024px) {
+  .package-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .package-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .features-row,
+  .rules-grid,
+  .dogs-grid {
+    grid-template-columns: 1fr;
+  }
+}

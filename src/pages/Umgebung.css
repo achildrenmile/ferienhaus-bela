@@ -1,0 +1,166 @@
+.umgebung-page .intro-block {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.umgebung-page .intro-block h2 {
+  margin-bottom: var(--spacing-md);
+}
+
+.umgebung-page .intro-block p {
+  font-size: 1.125rem;
+  color: var(--color-text-light);
+  line-height: 1.8;
+}
+
+.section-intro {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto var(--spacing-xl);
+  color: var(--color-text-light);
+  font-size: 1.0625rem;
+}
+
+/* Activity Category */
+.activity-category {
+  margin-bottom: var(--spacing-xl);
+}
+
+.activity-category:last-child {
+  margin-bottom: 0;
+}
+
+.activity-category h3 {
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-md);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 2px solid var(--color-secondary);
+  display: inline-block;
+}
+
+.activity-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-sm);
+}
+
+.activity-item {
+  background: var(--color-white);
+  padding: var(--spacing-md);
+  border-radius: var(--radius-md);
+  font-size: 0.9375rem;
+  color: var(--color-text);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.activity-item:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.activity-item.highlight {
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+/* Traditions Grid */
+.traditions-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--spacing-md);
+}
+
+.tradition-card {
+  background: var(--color-bg-alt);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  border-left: 4px solid var(--color-secondary);
+}
+
+.tradition-date {
+  display: inline-block;
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-bottom: var(--spacing-sm);
+}
+
+.tradition-card h4 {
+  color: var(--color-text);
+  font-size: 1rem;
+  margin-bottom: var(--spacing-xs);
+}
+
+.tradition-card p {
+  font-size: 0.875rem;
+  color: var(--color-text-light);
+  line-height: 1.5;
+}
+
+/* Links Grid */
+.links-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-md);
+}
+
+.link-card {
+  background: var(--color-white);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  text-decoration: none;
+  transition: all var(--transition-normal);
+  border: 2px solid transparent;
+}
+
+.link-card:hover {
+  border-color: var(--color-primary);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.link-card h4 {
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-xs);
+}
+
+.link-card p {
+  color: var(--color-text-light);
+  font-size: 0.9375rem;
+}
+
+@media (max-width: 1024px) {
+  .traditions-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .activity-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .traditions-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .links-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .activity-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .traditions-grid {
+    grid-template-columns: 1fr;
+  }
+}

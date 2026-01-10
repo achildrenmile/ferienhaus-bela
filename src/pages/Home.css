@@ -1,0 +1,126 @@
+.intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-xl);
+  align-items: center;
+}
+
+.intro-content p {
+  margin-bottom: var(--spacing-md);
+  font-size: 1.0625rem;
+  color: var(--color-text-light);
+}
+
+.intro-content p:last-child {
+  margin-bottom: 0;
+}
+
+.intro-content strong {
+  color: var(--color-primary);
+}
+
+.intro-image img {
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Features Section */
+.features-section {
+  background: var(--color-bg-alt);
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--spacing-lg);
+}
+
+.feature-card {
+  background: var(--color-white);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-normal);
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+}
+
+.feature-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto var(--spacing-md);
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-icon svg {
+  width: 28px;
+  height: 28px;
+  color: var(--color-white);
+}
+
+.feature-card h3 {
+  font-size: 1.125rem;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text);
+}
+
+.feature-card p {
+  font-size: 0.9375rem;
+  color: var(--color-text-light);
+  line-height: 1.6;
+}
+
+/* Gallery Preview */
+.preview-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--spacing-md);
+}
+
+.preview-grid img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  transition: transform var(--transition-normal);
+}
+
+.preview-grid img:hover {
+  transform: scale(1.02);
+}
+
+@media (max-width: 1024px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .preview-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .intro-image {
+    order: -1;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .preview-grid {
+    grid-template-columns: 1fr;
+  }
+}
