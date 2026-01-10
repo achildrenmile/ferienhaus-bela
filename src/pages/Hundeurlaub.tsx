@@ -26,7 +26,7 @@ const Hundeurlaub = () => {
       <Hero
         title="Hundeurlaub"
         subtitle="Hunde sind bei uns nicht nur erlaubt, sondern HERZLICH WILLKOMMEN und wohnen selbstverständlich kostenfrei!"
-        backgroundImage="/images/20200517_125002-2.jpg"
+        backgroundImage="/images/hunde-neu-1.jpeg"
       />
 
       <section className="section">
