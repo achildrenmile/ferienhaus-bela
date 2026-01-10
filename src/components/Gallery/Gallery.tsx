@@ -45,9 +45,11 @@ const Gallery = ({ images }: GalleryProps) => {
             aria-label={`Bild ${index + 1} vergrößern`}
           >
             <img src={image.src} alt={image.alt} loading="lazy" />
-            <div className="gallery-item-overlay">
-              <span className="gallery-item-caption">{image.alt}</span>
-            </div>
+            {image.alt && (
+              <div className="gallery-item-overlay">
+                <span className="gallery-item-caption">{image.alt}</span>
+              </div>
+            )}
           </button>
         ))}
       </div>
@@ -87,7 +89,7 @@ const Gallery = ({ images }: GalleryProps) => {
               alt={images[currentIndex]?.alt}
             />
             <p className="lightbox-caption">
-              <strong>{images[currentIndex]?.alt}</strong>
+              {images[currentIndex]?.alt && <strong>{images[currentIndex]?.alt}</strong>}
               <span>{currentIndex + 1} / {images.length}</span>
             </p>
           </div>

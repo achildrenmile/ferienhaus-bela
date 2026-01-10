@@ -3,18 +3,18 @@ import Gallery from '../components/Gallery/Gallery'
 import './Hundeurlaub.css'
 
 const dog_images = [
-  { src: '/images/20200729_0907180-01.jpeg', alt: 'Hunde im Garten' },
-  { src: '/images/20200714_172322-01.jpeg', alt: 'Hund am Fluss' },
-  { src: '/images/20200714_172806-01.jpeg', alt: 'Hund beim Spielen' },
-  { src: '/images/20200606_173431-1.jpg', alt: 'Hund im Garten' },
-  { src: '/images/20200607_134551-1.jpg', alt: 'Hundespiel' },
-  { src: '/images/20200612_155329.jpg', alt: 'Hund im Freien' },
-  { src: '/images/20200607_134617-1.jpg', alt: 'Hunde' },
-  { src: '/images/20200607_134538-1.jpg', alt: 'Vierbeiner' },
-  { src: '/images/20200717_092706-01.jpeg', alt: 'Hund beim Baden' },
-  { src: '/images/20200717_091806-01.jpeg', alt: 'Hund am Wasser' },
-  { src: '/images/20200607_095217-1.jpg', alt: 'Hundefreuden' },
-  { src: '/images/20200517_142635-2.jpg', alt: 'Hund im Schnee' },
+  { src: '/images/20200729_0907180-01.jpeg', alt: '' },
+  { src: '/images/20200714_172322-01.jpeg', alt: '' },
+  { src: '/images/20200714_172806-01.jpeg', alt: '' },
+  { src: '/images/20200606_173431-1.jpg', alt: '' },
+  { src: '/images/20200607_134551-1.jpg', alt: '' },
+  { src: '/images/20200612_155329.jpg', alt: '' },
+  { src: '/images/20200607_134617-1.jpg', alt: '' },
+  { src: '/images/20200607_134538-1.jpg', alt: '' },
+  { src: '/images/20200717_092706-01.jpeg', alt: '' },
+  { src: '/images/20200717_091806-01.jpeg', alt: '' },
+  { src: '/images/20200607_095217-1.jpg', alt: '' },
+  { src: '/images/20200517_142635-2.jpg', alt: '' },
 ]
 
 const Hundeurlaub = () => {
