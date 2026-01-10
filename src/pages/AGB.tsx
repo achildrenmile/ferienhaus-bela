@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Legal.css'
 
 const AGB = () => {
@@ -14,20 +15,26 @@ const AGB = () => {
             des Gesamtpreises</strong> fällig.
           </p>
           <p>
-            Der restliche Betrag ist <strong>14 Tage vor Anreise</strong> zu zahlen.
+            Der restliche Betrag ist <strong>14 Tage vor Reiseantritt</strong> zu zahlen.
+          </p>
+          <p>
+            Bei nicht fristgerechter Zahlung ist der Vermieter berechtigt, vom Vertrag
+            zurückzutreten und Schadenersatz gemäß den Rücktrittsgebühren (Punkt 2)
+            zu beanspruchen.
           </p>
 
           <div className="info-box">
             <h4>Bankverbindung</h4>
             <p>
               Bank: Raiffeisen Bank<br />
+              Kontoinhaber: Michael Linder<br />
               IBAN: AT15 3949 6000 0111 7506<br />
               BIC: RZKTAT2K496
             </p>
           </div>
 
           <p>
-            Bei Anreise ist eine <strong>Kaution von €100 in bar</strong> zu
+            Bei Anreise ist eine <strong>Kaution von € 100,- in bar</strong> zu
             hinterlegen. Diese wird bei schadenfreier Abreise vollständig
             zurückgegeben.
           </p>
@@ -36,7 +43,11 @@ const AGB = () => {
         <section className="legal-section">
           <h2>2. Stornierung</h2>
           <p>
-            Bei Stornierung der Buchung fallen folgende Rücktrittsgebühren an:
+            Wir empfehlen den Abschluss einer <strong>Reiserücktrittsversicherung</strong>.
+          </p>
+          <p>
+            Bei Stornierung der Buchung ohne Nennung eines Nachmieters fallen
+            folgende Rücktrittsgebühren an:
           </p>
           <table className="storno-table">
             <thead>
@@ -47,7 +58,7 @@ const AGB = () => {
             </thead>
             <tbody>
               <tr>
-                <td>45+ Tage</td>
+                <td>45 Tage und mehr</td>
                 <td>10%</td>
               </tr>
               <tr>
@@ -70,29 +81,45 @@ const AGB = () => {
           </table>
           <p>
             Bei Nennung eines Nachmieters entfallen die Stornierungsgebühren.
-            Stattdessen kann eine <strong>Bearbeitungsgebühr von €50</strong> erhoben werden.
+            Es kann jedoch eine <strong>Bearbeitungsgebühr von € 50,-</strong> erhoben werden.
+          </p>
+          <p>
+            Bei vorzeitiger Abreise ist der volle Mietpreis zu entrichten.
           </p>
         </section>
 
         <section className="legal-section">
           <h2>3. Mieterpflichten</h2>
+          <p>
+            Der Mieter verpflichtet sich, die Mieträumlichkeiten und die
+            Einrichtungsgegenstände pfleglich zu behandeln und schuldhaft
+            verursachte Schäden zu ersetzen.
+          </p>
           <ul>
-            <li>Der Mieter haftet für alle verursachten Schäden.</li>
+            <li>Mängelansprüche müssen unverzüglich beim Vermieter gemeldet werden.</li>
             <li>
               <strong>Das Rauchen ist innerhalb des Gebäudes nicht gestattet.</strong>
             </li>
             <li>Haustiere sind nach Vereinbarung erlaubt.</li>
-            <li>Mängel müssen unverzüglich gemeldet werden.</li>
-            <li>Das Ferienhaus ist pfleglich zu behandeln.</li>
-            <li>Bei Abreise ist das Haus besenrein zu übergeben.</li>
+            <li>
+              Der Mieter verpflichtet sich, die{' '}
+              <Link to="/hausordnung">Hausordnung</Link> einzuhalten.
+            </li>
           </ul>
         </section>
 
         <section className="legal-section">
-          <h2>4. Rechtliches</h2>
+          <h2>4. Salvatorische Klausel</h2>
           <p>
-            Der Mietvertrag unterliegt österreichischem Recht. Für Streitigkeiten
-            ist das Amtsgericht am Wohnsitz des Vermieters zuständig.
+            Sollten einzelne Bestimmungen dieses Vertrages unwirksam oder
+            undurchführbar sein oder werden, so wird die Wirksamkeit der
+            übrigen Bestimmungen nicht berührt.
+          </p>
+          <p>
+            Änderungen und Ergänzungen dieses Vertrages bedürfen der Schriftform.
+          </p>
+          <p>
+            Es gilt österreichisches Recht.
           </p>
         </section>
       </div>
