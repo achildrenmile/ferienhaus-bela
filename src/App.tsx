@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
+import CookieConsent from './components/CookieConsent/CookieConsent'
 import Home from './pages/Home'
 import Ferienhaus from './pages/Ferienhaus'
 import Hundeurlaub from './pages/Hundeurlaub'
@@ -28,6 +29,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
+      <CookieConsent />
     </div>
   )
 }

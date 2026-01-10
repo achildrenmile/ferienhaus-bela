@@ -87,9 +87,32 @@ const Impressum = () => {
           <div className="info-block">
             <h3>Cookies und Speicher</h3>
             <p>
-              Wir verwenden Cookies, LocalStorage und SessionStorage. Diese
-              dienen der technischen Funktionalität der Website und der
-              Verwaltung Ihrer Einwilligungen.
+              Wir verwenden LocalStorage zur Speicherung Ihrer Einwilligung
+              bezüglich der Webanalyse. Es werden keine Tracking-Cookies gesetzt.
+            </p>
+          </div>
+
+          <div className="info-block">
+            <h3>Webanalyse mit Umami</h3>
+            <p>
+              Wir nutzen Umami, ein datenschutzfreundliches Analyse-Tool,
+              um unsere Website zu verbessern. Die Nutzung erfolgt nur mit
+              Ihrer ausdrücklichen Einwilligung.
+            </p>
+            <p style={{ marginTop: '0.5rem' }}>
+              <strong>Umami zeichnet sich durch folgende Eigenschaften aus:</strong>
+            </p>
+            <ul>
+              <li>Keine Cookies - Umami verwendet keine Cookies</li>
+              <li>Keine persönlichen Daten - Es werden keine personenbezogenen Daten erfasst</li>
+              <li>Anonymisierung - Alle Daten werden anonymisiert verarbeitet</li>
+              <li>DSGVO-konform - Vollständig konform mit der Datenschutz-Grundverordnung</li>
+              <li>Selbst gehostet - Die Daten verbleiben auf unseren Servern</li>
+            </ul>
+            <p style={{ marginTop: '0.5rem' }}>
+              Sie können Ihre Einwilligung jederzeit widerrufen, indem Sie den
+              entsprechenden Eintrag in Ihrem Browser-Speicher löschen oder uns
+              kontaktieren.
             </p>
           </div>
 
