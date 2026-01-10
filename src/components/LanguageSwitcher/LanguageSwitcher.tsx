@@ -2,10 +2,10 @@ import { useTranslation } from 'react-i18next'
 import './LanguageSwitcher.css'
 
 const languages = [
-  { code: 'de', label: 'DE', flag: '🇦🇹' },
-  { code: 'en', label: 'EN', flag: '🇬🇧' },
-  { code: 'it', label: 'IT', flag: '🇮🇹' },
-  { code: 'sl', label: 'SI', flag: '🇸🇮' }
+  { code: 'de', flag: '🇦🇹', title: 'Deutsch' },
+  { code: 'en', flag: '🇬🇧', title: 'English' },
+  { code: 'it', flag: '🇮🇹', title: 'Italiano' },
+  { code: 'sl', flag: '🇸🇮', title: 'Slovenščina' }
 ]
 
 const LanguageSwitcher = () => {
@@ -23,10 +23,10 @@ const LanguageSwitcher = () => {
           key={lang.code}
           onClick={() => changeLanguage(lang.code)}
           className={`lang-btn ${i18n.language === lang.code ? 'active' : ''}`}
-          title={lang.label}
+          title={lang.title}
+          aria-label={lang.title}
         >
-          <span className="lang-flag">{lang.flag}</span>
-          <span className="lang-code">{lang.label}</span>
+          {lang.flag}
         </button>
       ))}
     </div>
