@@ -155,17 +155,6 @@ const Hundeurlaub = () => {
             </p>
           </div>
 
-          <div className="social-link-box">
-            <p>Folgen Sie unseren Hunden auf Instagram:</p>
-            <a
-              href="https://www.instagram.com/kiki_kira_king"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-secondary"
-            >
-              @kiki_kira_king
-            </a>
-          </div>
         </div>
       </section>
 
