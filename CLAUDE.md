@@ -58,19 +58,36 @@ public/
 
 ## Deployment
 
-### Build & Deploy
+### Production (Synology NAS)
+
+The site runs on a Synology NAS via Docker with Cloudflare Tunnel.
+
 ```bash
-# Build and deploy to Docker
-docker build -t ferienhaus-bela . && \
-docker stop ferienhaus-bela 2>/dev/null; \
-docker rm ferienhaus-bela 2>/dev/null; \
-docker run -d --name ferienhaus-bela -p 3333:80 ferienhaus-bela
+# Deploy to production
+./deploy-production.sh
 ```
 
-### Cloudflare Tunnel
-- Config: `~/.cloudflared/ferienhaus-bela.yml`
-- Service: `systemctl status cloudflared-ferienhaus`
-- Tunnel ID: `bf0303f4-25fc-4061-99df-0fc888defccb`
+**Requirements:**
+- Copy `.env.production.example` to `.env.production` and configure
+- SSH access to Synology configured
+
+**Infrastructure:**
+- **Host**: Synology NAS
+- **Container**: `ferienhaus-bela` on port 3333
+- **Tunnel**: `cloudflared-ferienhaus` (Cloudflare Tunnel)
+- **URL**: https://ferienhaus-bela.at
+
+### Local Development
+```bash
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+
+# Build for production
+npm run build
+```
 
 ## SEO Implementation
 
