@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Hero.css'
 
 interface HeroProps {
@@ -19,9 +20,9 @@ const Hero = ({ title, subtitle, backgroundImage, showCTA = false }: HeroProps) 
         {subtitle && <p className="hero-subtitle">{subtitle}</p>}
         {showCTA && (
           <div className="hero-cta">
-            <a href="mailto:office@ferienhaus-bela.at" className="btn btn-accent">
+            <Link to="/preise#belegungskalender" className="btn btn-accent">
               Jetzt anfragen
-            </a>
+            </Link>
           </div>
         )}
       </div>
