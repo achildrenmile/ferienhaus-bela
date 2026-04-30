@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next'
 import Hero from '../components/Hero/Hero'
 import TranslationDisclaimer from '../components/TranslationDisclaimer/TranslationDisclaimer'
 import SEO from '../components/SEO/SEO'
+import BookingCalendar from '../components/BookingCalendar/BookingCalendar'
 import './Preise.css'
 
 const Preise = () => {
@@ -144,13 +145,7 @@ const Preise = () => {
         <div className="container">
           <h2 className="section-title">{t('preise.calendar.title')}</h2>
           <p className="calendar-intro">{t('preise.calendar.intro')}</p>
-          <div className="calendar-wrapper">
-            <iframe
-              src="/calendar.html"
-              title={t('preise.calendar.title')}
-              className="calendar-iframe"
-            />
-          </div>
+          <BookingCalendar />
         </div>
       </section>
 

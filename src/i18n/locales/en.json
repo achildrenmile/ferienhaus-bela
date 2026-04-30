@@ -343,7 +343,11 @@
     },
     "calendar": {
       "title": "Availability Calendar",
-      "intro": "Here you can see the current availability of our holiday house."
+      "intro": "Here you can see the current availability of our holiday house.",
+      "free": "Available",
+      "booked": "Booked",
+      "prevYear": "Previous year",
+      "nextYear": "Next year"
     },
     "cta": {
       "title": "Interested?",

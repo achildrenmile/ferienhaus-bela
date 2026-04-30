@@ -343,7 +343,11 @@
     },
     "calendar": {
       "title": "Koledar Razpoložljivosti",
-      "intro": "Tu lahko vidite trenutno razpoložljivost naše počitniške hiše."
+      "intro": "Tu lahko vidite trenutno razpoložljivost naše počitniške hiše.",
+      "free": "Prosto",
+      "booked": "Zasedeno",
+      "prevYear": "Prejšnje leto",
+      "nextYear": "Naslednje leto"
     },
     "cta": {
       "title": "Zainteresirani?",

@@ -343,7 +343,11 @@
     },
     "calendar": {
       "title": "Calendario Disponibilità",
-      "intro": "Qui potete vedere la disponibilità attuale della nostra casa vacanze."
+      "intro": "Qui potete vedere la disponibilità attuale della nostra casa vacanze.",
+      "free": "Disponibile",
+      "booked": "Prenotato",
+      "prevYear": "Anno precedente",
+      "nextYear": "Anno successivo"
     },
     "cta": {
       "title": "Interessati?",

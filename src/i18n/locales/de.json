@@ -343,7 +343,11 @@
     },
     "calendar": {
       "title": "Belegungskalender",
-      "intro": "Hier sehen Sie die aktuelle Verfügbarkeit unseres Ferienhauses."
+      "intro": "Hier sehen Sie die aktuelle Verfügbarkeit unseres Ferienhauses.",
+      "free": "Frei",
+      "booked": "Belegt",
+      "prevYear": "Vorheriges Jahr",
+      "nextYear": "Nächstes Jahr"
     },
     "cta": {
       "title": "Interesse geweckt?",
