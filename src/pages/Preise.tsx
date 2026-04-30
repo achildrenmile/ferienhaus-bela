@@ -141,7 +141,7 @@ const Preise = () => {
         </div>
       </section>
 
-      <section className="section">
+      <section id="belegungskalender" className="section">
         <div className="container">
           <h2 className="section-title">{t('preise.calendar.title')}</h2>
           <p className="calendar-intro">{t('preise.calendar.intro')}</p>

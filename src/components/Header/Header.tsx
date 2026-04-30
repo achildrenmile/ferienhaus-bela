@@ -49,13 +49,13 @@ const Header = () => {
           <NavLink to="/preise" className="nav-link" onClick={closeMenu}>
             {t('nav.prices')}
           </NavLink>
-          <a
-            href="mailto:office@ferienhaus-bela.at"
+          <NavLink
+            to="/preise#belegungskalender"
             className="nav-link nav-cta"
             onClick={closeMenu}
           >
             {t('nav.contact')}
-          </a>
+          </NavLink>
           <LanguageSwitcher />
         </nav>
       </div>
