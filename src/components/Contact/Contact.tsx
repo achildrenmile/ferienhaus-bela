@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
 import './Contact.css'
 
 const Contact = () => {
@@ -51,9 +52,9 @@ const Contact = () => {
               <p>
                 {t('contact.description')}
               </p>
-              <a href="mailto:office@ferienhaus-bela.at" className="btn btn-primary">
+              <Link to="/preise#belegungskalender" className="btn btn-primary">
                 {t('contact.cta')}
-              </a>
+              </Link>
             </div>
           </div>
         </div>
