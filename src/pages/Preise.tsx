@@ -154,7 +154,7 @@ const Preise = () => {
           <div className="cta-box">
             <h2>{t('preise.cta.title')}</h2>
             <p>{t('preise.cta.text')}</p>
-            <a href="mailto:office@ferienhaus-bela.at?subject=Ferienhaus%20Bela%20-%20Buchungsanfrage" className="btn btn-accent">
+            <a href="#belegungskalender" className="btn btn-accent">
               {t('preise.cta.button')}
             </a>
           </div>
